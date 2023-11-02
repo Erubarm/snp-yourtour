@@ -192,6 +192,24 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
+.social-list a p {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(currentColor), to(currentColor));
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  -webkit-transition: background-size 0.3s;
+  transition: background-size 0.3s;
+}
+.social-list a p:hover {
+  background-size: 100% 2px;
+}
+.social-list a p:active {
+  color: #efa501;
+}
+.social-list a p:active p {
+  color: #efa501;
+}
 
 .social-item__link {
   display: -webkit-box;
@@ -427,6 +445,7 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 16px;
+  width: 12vw;
 }
 
 .card-item__down {

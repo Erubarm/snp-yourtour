@@ -149,6 +149,25 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
+  a {
+    p {
+      background-image: linear-gradient(currentColor, currentColor);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size 0.3s;
+    }
+    p:hover {
+      background-size: 100% 2px;
+    }
+    p:active {
+      color: #efa501;
+      p {
+        color: #efa501;
+      }
+    }
+  }
+  
 }
 
 .social-item__link {
@@ -157,6 +176,7 @@ a {
   margin-right: 25px;
   align-items: center;
 }
+
 .social-text {
   color: #a6a6a6;
 }
@@ -305,6 +325,7 @@ a {
   justify-content: space-between;
 
   transition: 300ms ease;
+  
 }
 .card-item:hover {
   background-size: 120%;
@@ -331,6 +352,8 @@ a {
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  width: 12vw;
 }
 .card-item__down {
   display: flex;
