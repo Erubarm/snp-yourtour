@@ -218,13 +218,12 @@ a {
   border-radius: 10px;
   transition: 300ms ease;
   &:hover {
-    background: #EFA501;
+    background: #efa501;
     color: white;
   }
   &:active {
-    background-color: #F8E6BE;
-    color: #1B1F2B;
-    
+    background-color: #f8e6be;
+    color: #1b1f2b;
   }
 }
 
@@ -455,6 +454,22 @@ a {
   border-radius: 10px;
   border: 1px solid #f4f0e9;
   background: #f9f7f4;
+
+  @extend .p-normal;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.form__inner-item {
+  select {
+    @extend .inner-item__input;
+
+    appearance: none;
+    background-image: url("/assets/icons/ic-dropdown.svg");
+    background-size: 1.5em;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0.9em);
+  }
 }
 
 .inner-item__input-special {
@@ -479,7 +494,6 @@ a {
   width: 26px;
   height: 26px;
 }
-
 
 .form__inner-license {
   display: flex;
@@ -507,7 +521,6 @@ a {
     color: #286562;
   }
 }
-
 
 .form__inner-line__btns-list {
   display: flex;
@@ -716,12 +729,11 @@ a {
       background-size: 100% 2px;
     }
     li:active {
-      color: #EFA501;
+      color: #efa501;
       a {
-        color: #EFA501;
+        color: #efa501;
       }
     }
-
   }
 }
 // История путешествий
@@ -752,7 +764,7 @@ a {
   background-repeat: no-repeat;
   background-size: 0% 2px;
   color: #1b1f2b;
-  
+
   transition: 300ms ease;
 }
 .callback-email:hover {

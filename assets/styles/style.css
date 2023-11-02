@@ -55,7 +55,7 @@ body {
   line-height: 122%; /* 28.06px */
 }
 
-.p-normal, .story-travel-item__up-descr ul {
+.p-normal, .story-travel-item__up-descr ul, .inner-item__input, .form__inner-item select {
   /* p-normal */
   font-family: Roboto;
   font-size: 20px;
@@ -275,12 +275,12 @@ a {
   transition: 300ms ease;
 }
 .up__link:hover {
-  background: #EFA501;
+  background: #efa501;
   color: white;
 }
 .up__link:active {
-  background-color: #F8E6BE;
-  color: #1B1F2B;
+  background-color: #f8e6be;
+  color: #1b1f2b;
 }
 
 .card-list {
@@ -548,12 +548,25 @@ a {
   width: 100%;
 }
 
-.inner-item__input {
+.inner-item__input, .form__inner-item select {
   height: 7.3vh;
   padding: 20px;
   border-radius: 10px;
   border: 1px solid #f4f0e9;
   background: #f9f7f4;
+}
+.inner-item__input:hover, .form__inner-item select:hover {
+  cursor: pointer;
+}
+
+.form__inner-item select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-image: url("/assets/icons/ic-dropdown.svg");
+  background-size: 1.5em;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 0.9em);
 }
 
 .inner-item__input-special {
@@ -910,10 +923,10 @@ a {
   background-size: 100% 2px;
 }
 .story-travel-item__down ul li:active {
-  color: #EFA501;
+  color: #efa501;
 }
 .story-travel-item__down ul li:active a {
-  color: #EFA501;
+  color: #efa501;
 }
 
 .callback {
