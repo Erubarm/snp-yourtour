@@ -679,7 +679,16 @@ a {
   gap: 85px;
   padding: 60px;
   border-radius: 50px;
+  transition: background-size 300ms ease;
+  
+  &:hover {
+    
+    background-size: 120%;
+    
+
+  }
 }
+
 .story-travel-item1 {
   background: linear-gradient(
       270deg,

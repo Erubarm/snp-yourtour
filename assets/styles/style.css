@@ -852,6 +852,11 @@ a {
   gap: 85px;
   padding: 60px;
   border-radius: 50px;
+  -webkit-transition: background-size 300ms ease;
+  transition: background-size 300ms ease;
+}
+.story-travel-item:hover {
+  background-size: 120%;
 }
 
 .story-travel-item1 {
