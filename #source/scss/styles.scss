@@ -970,10 +970,13 @@ a {
   .photo-travel-item {
     width: 314px;
     height: 300px;
+    object-fit: cover;
   }
   .photo-travel-item__special {
     width: 231px;
     height: 301px;
+    object-fit: cover;
+
   }
 }
 
@@ -993,11 +996,15 @@ a {
     width: 150px;
     height: 110px;
     border-radius: 20px;
+    object-fit: cover;
+
   }
   .photo-travel-item__special {
     width: 99px;
     height: 110px;
     border-radius: 20px;
+    object-fit: cover;
+
   }
   .travel-photo-3,
   .travel-photo-6,
