@@ -1122,10 +1122,14 @@ a {
   .photo-travel-item {
     width: 314px;
     height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .photo-travel-item__special {
     width: 231px;
     height: 301px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 @media (max-width: 360px) {
@@ -1143,11 +1147,15 @@ a {
     width: 150px;
     height: 110px;
     border-radius: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .photo-travel-item__special {
     width: 99px;
     height: 110px;
     border-radius: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .travel-photo-3,
   .travel-photo-6,
