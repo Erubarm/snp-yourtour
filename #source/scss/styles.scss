@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+
 }
 
 *,
@@ -236,6 +238,7 @@ a {
   background-repeat: no-repeat;
   background-size: 0% 2px;
   transition: background-size 0.3s;
+  padding-bottom: 6px;
 }
 @media (hover: hover) {
   .menu__list-link:hover {
@@ -464,6 +467,7 @@ a {
   background-repeat: no-repeat;
   background-size: 0% 2px;
   transition: background-size 0.3s;
+  padding-bottom: 6px;
 }
 @media (hover: hover) {
   .section-link__focus:hover {
@@ -477,6 +481,7 @@ a {
   background-repeat: no-repeat;
   background-size: 0% 2px;
   transition: background-size 0.3s;
+  padding-bottom: 6px;
 }
 @media (hover: hover) {
   .section-link:hover {
@@ -565,6 +570,7 @@ a {
     ),
     url(../img/card-tour-photo-1.jpg);
   background-position: center center;
+  background-size: 100%;
 }
 
 .card-item__two {
@@ -576,6 +582,7 @@ a {
     ),
     url(../img/card-tour-photo-2.jpg);
   background-position: center center;
+  background-size: 100%;
 }
 .card-item__three {
   margin-right: 0px;
@@ -587,6 +594,7 @@ a {
     ),
     url(../img/card-tour-photo-3.jpg);
   background-position: center center;
+  background-size: 100%;
 }
 .card-item__four {
   background: linear-gradient(
@@ -597,6 +605,7 @@ a {
     ),
     url(../img/card-tour-photo-4.jpg);
   background-position: center center;
+  background-size: 100%;
 }
 .card-item__five {
   background: linear-gradient(
@@ -607,6 +616,7 @@ a {
     ),
     url(../img/card-tour-photo-5.jpg);
   background-position: center center;
+  background-size: 100%;
 }
 .card-item__six {
   margin-right: 0px;
@@ -618,6 +628,7 @@ a {
     ),
     url(../img/card-tour-photo-6.jpg);
   background-position: center center;
+  background-size: 100%;
 }
 @media (max-width: 1024px) {
   .card-item {
@@ -742,10 +753,12 @@ a {
   display: flex;
   flex-direction: row;
   gap: 11px;
+
 }
 .radio-age input {
   width: 26px;
   height: 26px;
+  
 }
 
 .form__inner-license {
@@ -1051,7 +1064,7 @@ a {
     ),
     url(../img/story-photo-1.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 .story-travel-item2 {
   background: linear-gradient(
@@ -1061,7 +1074,7 @@ a {
     ),
     url(../img/story-photo-2.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 .story-travel-item3 {
   background: linear-gradient(
@@ -1071,7 +1084,7 @@ a {
     ),
     url(../img/story-photo-3.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .story-travel-item__up {
@@ -1099,6 +1112,7 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  height: 29px; // *Костыль, чтобы кнопка не увеличивала карточку вниз
 
   ul {
     display: flex;
@@ -1173,6 +1187,7 @@ a {
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
+  padding-bottom: 6px;
   color: #1b1f2b;
 
   transition: 300ms ease;

@@ -1,6 +1,7 @@
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -252,6 +253,7 @@ a {
   background-size: 0% 2px;
   -webkit-transition: background-size 0.3s;
   transition: background-size 0.3s;
+  padding-bottom: 6px;
 }
 
 @media (hover: hover) {
@@ -527,6 +529,7 @@ a {
   background-size: 0% 2px;
   -webkit-transition: background-size 0.3s;
   transition: background-size 0.3s;
+  padding-bottom: 6px;
 }
 
 @media (hover: hover) {
@@ -542,6 +545,7 @@ a {
   background-size: 0% 2px;
   -webkit-transition: background-size 0.3s;
   transition: background-size 0.3s;
+  padding-bottom: 6px;
 }
 
 @media (hover: hover) {
@@ -646,12 +650,14 @@ a {
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(../img/card-tour-photo-1.jpg);
   background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(../img/card-tour-photo-1.jpg);
   background-position: center center;
+  background-size: 100%;
 }
 
 .card-item__two {
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(../img/card-tour-photo-2.jpg);
   background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(../img/card-tour-photo-2.jpg);
   background-position: center center;
+  background-size: 100%;
 }
 
 .card-item__three {
@@ -659,18 +665,21 @@ a {
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(../img/card-tour-photo-3.jpg);
   background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(../img/card-tour-photo-3.jpg);
   background-position: center center;
+  background-size: 100%;
 }
 
 .card-item__four {
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(../img/card-tour-photo-4.jpg);
   background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(../img/card-tour-photo-4.jpg);
   background-position: center center;
+  background-size: 100%;
 }
 
 .card-item__five {
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(../img/card-tour-photo-5.jpg);
   background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(../img/card-tour-photo-5.jpg);
   background-position: center center;
+  background-size: 100%;
 }
 
 .card-item__six {
@@ -678,6 +687,7 @@ a {
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(../img/card-tour-photo-6.jpg);
   background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(../img/card-tour-photo-6.jpg);
   background-position: center center;
+  background-size: 100%;
 }
 
 @media (max-width: 1024px) {
@@ -1204,21 +1214,21 @@ a {
   background: -webkit-gradient(linear, right top, left top, color-stop(0.01%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(../img/story-photo-1.jpg);
   background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%), url(../img/story-photo-1.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .story-travel-item2 {
   background: -webkit-gradient(linear, right top, left top, color-stop(0.01%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(../img/story-photo-2.jpg);
   background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%), url(../img/story-photo-2.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .story-travel-item3 {
   background: -webkit-gradient(linear, right top, left top, color-stop(0.01%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(../img/story-photo-3.jpg);
   background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%), url(../img/story-photo-3.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .story-travel-item__up {
@@ -1264,6 +1274,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  height: 29px;
 }
 .story-travel-item__down ul {
   display: -webkit-box;
@@ -1357,6 +1368,7 @@ a {
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
+  padding-bottom: 6px;
   color: #1b1f2b;
   -webkit-transition: 300ms ease;
   transition: 300ms ease;
