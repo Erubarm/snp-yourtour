@@ -1,0 +1,353 @@
+.card-list {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  grid-gap: 30px;
+}
+
+.main-title__special {
+  margin-top: 135px;
+  padding-bottom: 35px;
+  text-align: center;
+  color: #1b1f2b;
+}
+
+.main-title {
+  margin-top: 134px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #1b1f2b;
+}
+
+@media (max-width: 360px) {
+  .main-title,
+  .main-title__special {
+    margin-top: 75px;
+  }
+  .main-title__special {
+    padding-bottom: 30px;
+  }
+  .main-title {
+    padding-bottom: 20px;
+  }
+}
+.choose-tour__section {
+  padding-bottom: 106px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+@media (max-width: 360px) {
+  .choose-tour__section {
+    padding-bottom: 50px;
+    gap: 10px;
+    width: 318px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+.section-link {
+  color: #1b1f2b;
+}
+
+.section-link__focus {
+  color: #efa501;
+}
+
+.section-link__focus {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(currentColor),
+    to(currentColor)
+  );
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  -webkit-transition: background-size 0.3s;
+  transition: background-size 0.3s;
+  padding-bottom: 6px;
+}
+
+@media (hover: hover) {
+  .section-link__focus:hover {
+    background-size: 100% 2px;
+  }
+}
+.section-link {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(currentColor),
+    to(currentColor)
+  );
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  -webkit-transition: background-size 0.3s;
+  transition: background-size 0.3s;
+  padding-bottom: 6px;
+}
+
+@media (hover: hover) {
+  .section-link:hover {
+    background-size: 100% 2px;
+  }
+}
+.card-item {
+  width: 370px;
+  height: 531px;
+  border-radius: 50px;
+  color: #fff;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+
+@media (hover: hover) {
+  .card-item:hover {
+    background-size: 120%;
+  }
+}
+.more {
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+
+@media (hover: hover) {
+  .more:hover {
+    background: var(--Green-400, #286562);
+    border-radius: 50px;
+    padding: 7px 20px;
+  }
+  .more:active {
+    background-color: #efa501;
+    border-radius: 50px;
+    padding: 7px 20px;
+  }
+}
+.card-item__up {
+  /* padding-top: 50px;
+      padding-left: 50px;
+      padding-right: 50px; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 16px;
+  width: 12vw;
+}
+
+@media (max-width: 1024px) {
+  .card-item__up {
+    width: 350px;
+  }
+}
+@media (max-width: 360px) {
+  .card-item__up {
+    width: 268px;
+    gap: 13px;
+  }
+  .card-item {
+    padding: 25px;
+  }
+}
+.card-item__down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  align-items: center;
+  height: 29px;
+}
+
+.more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 15px;
+  border-radius: 50px;
+}
+
+.card-item__one {
+  background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(0, 0, 0, 0.4)),
+      color-stop(48.44%, rgba(0, 0, 0, 0.06)),
+      to(rgba(0, 0, 0, 0.5))
+    ),
+    url(../img/card-tour-photo-1.jpg);
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(../img/card-tour-photo-1.jpg);
+  background-position: center center;
+  background-size: 100%;
+}
+
+.card-item__two {
+  background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(0, 0, 0, 0.4)),
+      color-stop(48.44%, rgba(0, 0, 0, 0.06)),
+      to(rgba(0, 0, 0, 0.5))
+    ),
+    url(../img/card-tour-photo-2.jpg);
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(../img/card-tour-photo-2.jpg);
+  background-position: center center;
+  background-size: 100%;
+}
+
+.card-item__three {
+  margin-right: 0px;
+  background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(0, 0, 0, 0.4)),
+      color-stop(48.44%, rgba(0, 0, 0, 0.06)),
+      to(rgba(0, 0, 0, 0.5))
+    ),
+    url(../img/card-tour-photo-3.jpg);
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(../img/card-tour-photo-3.jpg);
+  background-position: center center;
+  background-size: 100%;
+}
+
+.card-item__four {
+  background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(0, 0, 0, 0.4)),
+      color-stop(48.44%, rgba(0, 0, 0, 0.06)),
+      to(rgba(0, 0, 0, 0.5))
+    ),
+    url(../img/card-tour-photo-4.jpg);
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(../img/card-tour-photo-4.jpg);
+  background-position: center center;
+  background-size: 100%;
+}
+
+.card-item__five {
+  background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(0, 0, 0, 0.4)),
+      color-stop(48.44%, rgba(0, 0, 0, 0.06)),
+      to(rgba(0, 0, 0, 0.5))
+    ),
+    url(../img/card-tour-photo-5.jpg);
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(../img/card-tour-photo-5.jpg);
+  background-position: center center;
+  background-size: 100%;
+}
+
+.card-item__six {
+  margin-right: 0px;
+  background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(0, 0, 0, 0.4)),
+      color-stop(48.44%, rgba(0, 0, 0, 0.06)),
+      to(rgba(0, 0, 0, 0.5))
+    ),
+    url(../img/card-tour-photo-6.jpg);
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(../img/card-tour-photo-6.jpg);
+  background-position: center center;
+  background-size: 100%;
+}
+
+@media (max-width: 1024px) {
+  .card-item {
+    width: 450px;
+    background-size: cover;
+  }
+  .card-item__up {
+    width: 350px;
+  }
+}
+@media (max-width: 360px) {
+  .card-item {
+    width: 318px;
+    height: 318px;
+  }
+  .card-item__up {
+    width: 268px;
+  }
+}

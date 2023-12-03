@@ -1,0 +1,197 @@
+.story-travel-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 100px;
+}
+.story-travel-list h3,
+.story-travel-list p,
+.story-travel-list li {
+  color: #fff;
+}
+
+.story-travel-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 85px;
+  padding: 60px;
+  border-radius: 50px;
+  -webkit-transition: background-size 300ms ease;
+  transition: background-size 300ms ease;
+}
+@media (hover: hover) {
+  .story-travel-item:hover {
+    background-size: 120%;
+  }
+}
+
+.story-travel-item1 {
+  background: -webkit-gradient(
+      linear,
+      right top,
+      left top,
+      color-stop(0.01%, rgba(0, 0, 0, 0)),
+      to(rgba(0, 0, 0, 0.2))
+    ),
+    url(../img/story-photo-1.jpg);
+  background: linear-gradient(
+      270deg,
+      rgba(0, 0, 0, 0) 0.01%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(../img/story-photo-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.story-travel-item2 {
+  background: -webkit-gradient(
+      linear,
+      right top,
+      left top,
+      color-stop(0.01%, rgba(0, 0, 0, 0)),
+      to(rgba(0, 0, 0, 0.2))
+    ),
+    url(../img/story-photo-2.jpg);
+  background: linear-gradient(
+      270deg,
+      rgba(0, 0, 0, 0) 0.01%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(../img/story-photo-2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.story-travel-item3 {
+  background: -webkit-gradient(
+      linear,
+      right top,
+      left top,
+      color-stop(0.01%, rgba(0, 0, 0, 0)),
+      to(rgba(0, 0, 0, 0.2))
+    ),
+    url(../img/story-photo-3.jpg);
+  background: linear-gradient(
+      270deg,
+      rgba(0, 0, 0, 0) 0.01%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(../img/story-photo-3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.story-travel-item__up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 37px;
+  height: 334px;
+  width: 554px;
+}
+
+.story-travel-item__up-descr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 27px;
+}
+.story-travel-item__up-descr ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 4px;
+}
+
+.story-travel-item__down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 29px;
+}
+.story-travel-item__down ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 35px;
+}
+.story-travel-item__down ul li {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(currentColor),
+    to(currentColor)
+  );
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  -webkit-transition: background-size 0.3s;
+  transition: background-size 0.3s;
+}
+@media (hover: hover) {
+  .story-travel-item__down ul li:hover {
+    background-size: 100% 2px;
+  }
+  .story-travel-item__down ul li:active {
+    color: #efa501;
+  }
+  .story-travel-item__down ul li:active a {
+    color: #efa501;
+  }
+}
+
+@media (max-width: 360px) {
+  .story-travel-list {
+    margin-top: 50px;
+    gap: 20px;
+  }
+  .story-travel-item {
+    padding: 30px;
+    height: 455px;
+    background-position: bottom;
+  }
+  .story-travel-item__up {
+    width: 263px;
+    gap: 20px;
+  }
+  .travel-item__head-title {
+    width: 162px;
+  }
+  .story-travel-item__social-list {
+    display: none;
+  }
+}

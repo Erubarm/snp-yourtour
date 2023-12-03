@@ -1,0 +1,249 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: #f9f7f4;
+}
+
+.h-1 {
+  /* H1 */
+  font-family: Roboto;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 109%; /* 104.64px */
+  letter-spacing: 1.92px;
+}
+
+.h-2 {
+  /* H2 */
+  font-family: Roboto;
+  font-size: 59px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 124%; /* 73.16px */
+}
+
+.h-3 {
+  /* H3 */
+  font-family: Roboto;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 122%; /* 42.7px */
+}
+
+.p-big {
+  /* p-big */
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 122%; /* 28.06px */
+}
+
+.p-normal,
+.story-travel-item__up-descr ul,
+.inner-item__input,
+.form__inner-item select {
+  /* p-normal */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 142%; /* 28.4px */
+}
+
+.p-small {
+  /* p-small */
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 142%; /* 24.14px */
+  letter-spacing: -0.17px;
+}
+
+.mobile-h1 {
+  font-family: Roboto;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 112%; /* 38.08px */
+  letter-spacing: 0.68px;
+}
+
+.mobile-h2 {
+  font-family: Roboto;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 112%; /* 38.08px */
+  letter-spacing: 0.68px;
+}
+
+.mobile-h3 {
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 27.6px */
+  letter-spacing: 0.92px;
+}
+
+.mobile-p-big {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 142%; /* 22.72px */
+}
+
+.mobile-p-normal {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 142%; /* 22.72px */
+}
+
+.mobile-p-small {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 142%; /* 22.72px */
+  letter-spacing: -0.16px;
+}
+
+@media (max-width: 360px) {
+  .h-1 {
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 112%; /* 38.08px */
+    letter-spacing: 0.68px;
+  }
+  .h-2 {
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 112%; /* 38.08px */
+    letter-spacing: 0.68px;
+  }
+  .h-3 {
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 27.6px */
+    letter-spacing: 0.92px;
+  }
+  .p-big {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 142%; /* 22.72px */
+  }
+  .p-normal,
+  .story-travel-item__up-descr ul,
+  .inner-item__input,
+  .form__inner-item select {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142%; /* 22.72px */
+  }
+  .p-small {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142%; /* 22.72px */
+    letter-spacing: -0.16px;
+  }
+}
+.wrapper {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 910px;
+  }
+  .title-discription {
+    max-width: 442px;
+  }
+}
+@media (max-width: 360px) {
+  .container {
+    max-width: 320px;
+  }
+  .title-discription {
+    max-width: 310px;
+  }
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.secondary-title {
+  color: #a6a6a6;
+  text-align: center;
+  width: 418px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.secondary-title__special {
+  width: 408px;
+}
+
+@media (max-width: 360px) {
+  .secondary-title {
+    width: 318px;
+  }
+}
