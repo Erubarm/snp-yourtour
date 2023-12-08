@@ -84,3 +84,12 @@
 .social-item__title {
   color: #1b1f2b;
 }
+
+@media (max-width: 360px) {
+  .footer__inner {
+    flex-direction: column;
+  }
+  .social-list {
+    gap: 15px;
+  }
+}

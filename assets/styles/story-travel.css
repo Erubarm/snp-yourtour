@@ -194,4 +194,8 @@
   .story-travel-item__social-list {
     display: none;
   }
+  .story-travel-item1, .story-travel-item2, .story-travel-item3 {
+    background-size: cover;
+  }
 }
+

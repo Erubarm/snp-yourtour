@@ -216,7 +216,7 @@
               <li class="form__inner-line__special">
                 <p class="p-normal">Комментарий</p>
                 <label for="comment" class="form__inner-item__special">
-                  <textarea type="text" class="inner-item__input-special p-normal"></textarea>
+                  <textarea type="text" class="inner-item__input-special p-normal" id="comment"></textarea>
                 </label>
               </li>
 
@@ -224,20 +224,24 @@
                 <label for="radio-age" class="form__inner-item">
                   <p>Вам есть 18 лет?</p>
                   <div class="radio-age">
-                    <label for="radio-age" class="radio-age-label-input"><input type="radio" name="radio-age"
-                        id="age-yes">
+                    <label for="radio-age-yes" class="radio-age-label-input">
+                      <input type="radio" name="radio-age" id="radio-age-yes">
                       <span></span>
                       Да
                     </label>
-                    <label for="radio-age" class="radio-age-label-input"><input type="radio" name="radio-age"
-                        id="age-no">Нет</label>
+                    <label for="radio-age-no" class="radio-age-label-input">
+                      <input type="radio" name="radio-age" id="radio-age-no">
+                      <span></span>
+                      Нет</label>
                   </div>
                 </label>
               </li>
 
               <li class="form__inner-line">
+
                 <label for="license-agree" class="form__inner-license">
-                  <input type="checkbox">
+                  <input type="checkbox" name="license-agree" id="license-agree">
+                  <span></span>
                   <p class="p-small">Нажимая кнопку, я принимаю условия
                     <strong class="p-small">
                       <a href="#">Лицензионного договора</a>
