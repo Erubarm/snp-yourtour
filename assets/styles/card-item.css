@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
   grid-gap: 30px;
+  
 }
 
 .main-title__special {
@@ -111,7 +112,7 @@
   }
 }
 .card-item {
-  width: 370px;
+  width: 100%;
   height: 531px;
   border-radius: 50px;
   color: #fff;
@@ -169,7 +170,7 @@
 
 @media (max-width: 1024px) {
   .card-item__up {
-    width: 350px;
+    width: 35vw;
   }
 }
 @media (max-width: 360px) {
@@ -224,6 +225,7 @@
     url(../img/card-tour-photo-1.jpg);
   background-position: center center;
   background-size: 100%;
+  /* grid-area: line1; */
 }
 
 .card-item__two {
@@ -245,6 +247,7 @@
     url(../img/card-tour-photo-2.jpg);
   background-position: center center;
   background-size: 100%;
+  /* grid-area: line2; */
 }
 
 .card-item__three {
@@ -267,6 +270,7 @@
     url(../img/card-tour-photo-3.jpg);
   background-position: center center;
   background-size: 100%;
+  /* grid-area: line3; */
 }
 
 .card-item__four {
@@ -288,6 +292,7 @@
     url(../img/card-tour-photo-4.jpg);
   background-position: center center;
   background-size: 100%;
+  /* grid-area: line4; */
 }
 
 .card-item__five {
@@ -309,6 +314,7 @@
     url(../img/card-tour-photo-5.jpg);
   background-position: center center;
   background-size: 100%;
+  /* grid-area: line5; */
 }
 
 .card-item__six {
@@ -331,11 +337,12 @@
     url(../img/card-tour-photo-6.jpg);
   background-position: center center;
   background-size: 100%;
+  /* grid-area: line6; */
 }
 
 @media (max-width: 1024px) {
   .card-item {
-    width: 450px;
+    width: 100%;
     background-size: cover;
   }
   .card-item__up {
@@ -344,7 +351,7 @@
 }
 @media (max-width: 360px) {
   .card-item {
-    width: 318px;
+    width: 100%;
     height: 318px;
   }
   .card-item__up {

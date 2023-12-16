@@ -11,6 +11,17 @@
   text-align: center;
 }
 
+.header-fix {
+  position: fixed;
+  backdrop-filter: blur(5px);
+  
+}
+.header-fix a {
+  color: black;
+}
+
+
+
 .header__inner {
   padding-top: 29px;
   padding-bottom: 29px;
@@ -23,8 +34,9 @@
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
-  color: #fff;
+  color: #000;
 }
+
 
 .menu__list-link {
   background-image: -webkit-gradient(

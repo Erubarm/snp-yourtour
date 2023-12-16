@@ -64,6 +64,7 @@
   border-radius: 10px;
   border: 1px solid #f4f0e9;
   background: #f9f7f4;
+  width: 100%;
 }
 .inner-item__input:hover,
 .form__inner-item select:hover {
@@ -95,7 +96,7 @@
   width: 100%;
   background: #f9f7f4;
   border: 1px solid #f4f0e9;
-  height: 23.5vh;
+  height: 15.5vh;
   border-radius: 10px;
 }
 .form__inner-item__special textarea {
