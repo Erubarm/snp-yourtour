@@ -188,7 +188,7 @@
   width: 26px;
   height: 26px;
   border-radius: 5px;
-  background-image: url(/assets/icons/checkbox.svg);
+  background-image: url(../icons/checkbox.svg);
 }
 
 .form__inner-license span {
@@ -199,7 +199,7 @@
   align-items: center;
   width: 26px;
   height: 26px;
-  background-image: url(/assets/icons/checkbox-off.svg);
+  background-image: url(../icons/checkbox-off.svg);
   border-radius: 5px;
 }
 

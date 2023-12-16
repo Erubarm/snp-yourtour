@@ -1,5 +1,4 @@
 const header = document.querySelector('header');
-const headerHight = 93; // высота шапки
 const heightShowHeader = 450; // Момент, с которого начинается фиксация
 const headerLogo = header.querySelector('img');
 
