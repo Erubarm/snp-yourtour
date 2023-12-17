@@ -114,6 +114,7 @@
   -ms-flex-direction: column;
   flex-direction: column;
   gap: 27px;
+
 }
 .story-travel-item__up-descr ul {
   list-style-type: disc;
@@ -177,6 +178,9 @@
 @media (max-width: 1024px) {
   .story-travel-item1, .story-travel-item2, .story-travel-item3 {
     background-size: cover;
+  }
+  .story-travel-item__up-descr {
+    width: 88vw;
   }
 }
 

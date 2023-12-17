@@ -75,6 +75,12 @@
   color: white;
 }
 
+@media (max-width: 700px) {
+  .telephone {
+    display: none;
+  }
+}
+
 @media (max-width: 360px) {
   .logo__image {
     width: 133px;
