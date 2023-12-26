@@ -3,7 +3,7 @@ const heightShowHeader = 450; // Момент, с которого начина�
 const headerLogo = header.querySelector('img');
 
 
-console.log(headerLogo)
+
 window.addEventListener('scroll', () => {
     let scrollHight = window.scrollY;
 
