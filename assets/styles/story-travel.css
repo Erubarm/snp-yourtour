@@ -33,6 +33,13 @@
   .story-travel-item:hover {
     background-size: 120%;
   }
+
+  .story-travel-item:hover .more {
+    background: #286562;
+    border-radius: 50px;
+    padding: 7px 20px;
+  }
+
 }
 
 .story-travel-item1 {

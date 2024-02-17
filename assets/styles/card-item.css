@@ -142,11 +142,12 @@
 }
 
 @media (hover: hover) {
-  .more:hover {
-    background: var(--Green-400, #286562);
+  .card-item:hover .more {
+    background: #286562;
     border-radius: 50px;
     padding: 7px 20px;
   }
+
   .more:active {
     background-color: #efa501;
     border-radius: 50px;
@@ -352,7 +353,7 @@
 
 @media (max-width: 700px) {
   .choose-tour__section {
-    gap: 2px;
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 360px) {
