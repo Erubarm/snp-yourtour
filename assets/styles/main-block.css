@@ -18,6 +18,22 @@
     gap: 40px;
   }
 }
+
+@media (max-width: 634px) {
+  .up__title {
+    font-size: 72px;
+  }
+}
+
+@media (max-width: 470px) {
+  .up__title {
+    font-size: 58px;
+  }
+  .title-discription {
+    font-size: 16px;
+  }
+}
+
 .block-title-container {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -186,6 +186,11 @@
   .story-travel-item1, .story-travel-item2, .story-travel-item3 {
     background-size: cover;
   }
+
+  .story-travel-item__down ul {
+    display: none;
+
+  }
   .story-travel-item__up-descr {
     width: 88vw;
   }
