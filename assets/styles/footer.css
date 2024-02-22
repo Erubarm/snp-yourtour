@@ -85,7 +85,7 @@
   color: #1b1f2b;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
   .footer__inner {
     flex-direction: column;
   }

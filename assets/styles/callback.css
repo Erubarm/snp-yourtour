@@ -65,7 +65,7 @@
   border-radius: 50px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
   .callback {
     margin-top: 75px;
     -webkit-box-orient: vertical;

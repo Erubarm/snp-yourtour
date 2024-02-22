@@ -196,7 +196,7 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
   .story-travel-list {
     margin-top: 50px;
     gap: 20px;
