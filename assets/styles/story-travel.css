@@ -191,8 +191,12 @@
     display: none;
 
   }
+  .story-travel-item__up {
+    width: 263px;
+    gap: 20px;
+  }
   .story-travel-item__up-descr {
-    width: 88vw;
+    width: 75vw;
   }
 }
 

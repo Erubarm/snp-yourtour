@@ -200,7 +200,7 @@ body {
 
 @media (max-width: 1024px) {
   .container {
-    max-width: 910px;
+    max-width: 88vw;
     align-items: center;
   }
   .title-discription {
