@@ -57,7 +57,7 @@
       rgba(0, 0, 0, 0.2) 100%
     ),
     url(../img/story-photo-1.jpg);
-  background-repeat: no-repeat;
+  background-repeat: round;
   background-size: 100%;
 }
 
@@ -76,7 +76,7 @@
       rgba(0, 0, 0, 0.2) 100%
     ),
     url(../img/story-photo-2.jpg);
-  background-repeat: no-repeat;
+  background-repeat: round;
   background-size: 100%;
 }
 
@@ -95,7 +95,7 @@
       rgba(0, 0, 0, 0.2) 100%
     ),
     url(../img/story-photo-3.jpg);
-  background-repeat: no-repeat;
+  background-repeat: round;
   background-size: 100%;
 }
 
@@ -208,7 +208,7 @@
   .story-travel-item {
     padding: 30px;
     height: 455px;
-    background-position: bottom;
+    /*background-position: bottom;*/
   }
   .story-travel-item__up {
     width: 263px;

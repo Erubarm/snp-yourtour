@@ -61,10 +61,15 @@
 }
 .section-link {
   color: #1b1f2b;
+  border: none;
+  background: inherit;
 }
 
 .section-link__focus {
   color: #efa501;
+  border: none;
+
+  background: inherit;
 }
 
 .section-link__focus {
@@ -224,7 +229,7 @@
       rgba(0, 0, 0, 0.5) 100%
     ),
     url(../img/card-tour-photo-1.jpg);
-  background-position: center center;
+  background-position: bottom;
   background-size: 100%;
   /* grid-area: line1; */
 }
@@ -246,7 +251,7 @@
       rgba(0, 0, 0, 0.5) 100%
     ),
     url(../img/card-tour-photo-2.jpg);
-  background-position: center center;
+  background-position: bottom;
   background-size: 100%;
   /* grid-area: line2; */
 }
@@ -269,7 +274,7 @@
       rgba(0, 0, 0, 0.5) 100%
     ),
     url(../img/card-tour-photo-3.jpg);
-  background-position: center center;
+  background-position: bottom;
   background-size: 100%;
   /* grid-area: line3; */
 }
@@ -291,7 +296,7 @@
       rgba(0, 0, 0, 0.5) 100%
     ),
     url(../img/card-tour-photo-4.jpg);
-  background-position: center center;
+  background-position: bottom;
   background-size: 100%;
   /* grid-area: line4; */
 }
@@ -313,7 +318,7 @@
       rgba(0, 0, 0, 0.5) 100%
     ),
     url(../img/card-tour-photo-5.jpg);
-  background-position: center center;
+  background-position: bottom;
   background-size: 100%;
   /* grid-area: line5; */
 }
@@ -336,7 +341,7 @@
       rgba(0, 0, 0, 0.5) 100%
     ),
     url(../img/card-tour-photo-6.jpg);
-  background-position: center center;
+  background-position: bottom;
   background-size: 100%;
   /* grid-area: line6; */
 }
