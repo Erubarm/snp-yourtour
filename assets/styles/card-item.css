@@ -59,6 +59,11 @@
     justify-content: center;
   }
 }
+
+.section button {
+  cursor: pointer;
+}
+
 .section-link {
   color: #1b1f2b;
   border: none;
