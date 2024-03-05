@@ -61,14 +61,23 @@
 .form__inner-item select {
   height: 68px;
   padding: 20px;
+  border: 1px solid var(--beige-200);
   border-radius: 10px;
-  border: 1px solid #f4f0e9;
-  background: #f9f7f4;
+  background: var(--beige-100);
   width: 100%;
+
+  outline: none;
 }
 .inner-item__input:hover,
 .form__inner-item select:hover {
   cursor: pointer;
+  background: var(--beige-200);
+}
+
+.inner-item__input:focus,
+.form__inner-item select:focus {
+  border: 1px solid var(--gray-300);
+  background: var(--beige-200);
 }
 
 .form__inner-item select {
@@ -92,24 +101,26 @@
   gap: 8px;
 }
 
-.form__inner-item__special {
+/* .form__inner-item__special {
   width: 100%;
   background: #f9f7f4;
   border: 1px solid #f4f0e9;
   height: 15.5vh;
   border-radius: 10px;
-}
+} */
 .form__inner-item__special textarea {
   width: 100%;
-  height: 100%;
-  resize: none;
-  background: none;
-  border: none;
+
+  background: var(--beige-100);
+  border: 1px solid var(--beige-200);
+  height: 152px;
   border-radius: 10px;
-  padding: 20px;
+
+  outline: none;
 }
-.form__inner-item__special textarea:focus-visible {
-  border: 1px solid #a6a6a6;
+.form__inner-item__special textarea:focus {
+  border: 1px solid var(--gray-300);
+  background: var(--beige-200);
 }
 
 @media (max-width: 1024px) {
@@ -146,7 +157,7 @@
   z-index: 0;
 }
 .radio-age input:checked ~ span::before {
-  content: '';
+  content: "";
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -184,7 +195,7 @@
 }
 
 .form__inner-license input:checked ~ span::before {
-  content: '';
+  content: "";
   width: 26px;
   height: 26px;
   border-radius: 5px;
