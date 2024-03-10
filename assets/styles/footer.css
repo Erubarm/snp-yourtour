@@ -49,14 +49,12 @@
   transition: background-size 0.3s;
 }
 @media (hover: hover) {
-  .social-list a p:hover {
+  
+  .social-item__link:hover p{
     background-size: 100% 2px;
   }
-  .social-list a p:active {
-    color: #efa501;
-  }
-  .social-list a p:active p {
-    color: #efa501;
+  .social-item__link:active p{
+    color: var(--orange-200);
   }
 }
 

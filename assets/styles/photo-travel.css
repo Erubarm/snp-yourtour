@@ -6,7 +6,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 99vw;
+  width: 100%;
+  padding: 0 30px;
   gap: 30px;
   margin-top: 100px;
 }
@@ -21,8 +22,6 @@
           flex-direction: row;
   width: 100%;
   gap: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .photo-travel-items img {
@@ -30,7 +29,7 @@
 }
 
 .photo-travel-item {
-  width: 23.3vw;
+  width: 100%;
   height: 301px;
   overflow: hidden;
   -o-object-fit: cover;
@@ -38,7 +37,7 @@
 }
 
 .photo-travel-item__special {
-  width: 18.3vw;
+  width: 100%;
   height: 301px;
   overflow: hidden;
   -o-object-fit: cover;
@@ -52,7 +51,8 @@
     display: none;
   }
   .photo-travel-list {
-    width: 100vw;
+    width: 100%;
+    padding: 0 20px;
   }
   .photo-travel-item {
     width: 100%;
