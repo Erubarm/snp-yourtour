@@ -23,6 +23,7 @@
   .main-title,
   .main-title__special {
     margin-top: 75px;
+    padding-top: 0px;
   }
   .main-title__special {
     padding-bottom: 30px;

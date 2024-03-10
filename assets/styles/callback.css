@@ -68,6 +68,7 @@
 @media (max-width: 600px) {
   .callback {
     margin-top: 75px;
+    margin-bottom: 75px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;

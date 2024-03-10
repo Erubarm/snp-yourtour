@@ -24,6 +24,12 @@
   gap: 30px;
 }
 
+@media ( max-width: 1024px ) {
+  .photo-travel-items {
+    gap: 20px;
+  }
+}
+
 .photo-travel-items img {
   border-radius: 50px;
 }
