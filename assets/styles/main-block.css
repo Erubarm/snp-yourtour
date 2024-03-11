@@ -80,7 +80,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 831px;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -90,9 +90,7 @@
 }
 
 @media (max-width: 600px) {
-  .up {
-    height: 488px;
-  }
+  
   .title-discription {
     width: fit-content;
   }
