@@ -20,7 +20,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .form__inner {
     margin-top: 40px;
     padding: 20px;
@@ -220,7 +220,7 @@
   border-radius: 5px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .form__inner-license input {
     width: 20px;
     height: 20px;
@@ -320,7 +320,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .form__inner {
     margin-top: 40px;
     padding: 40px 20px;
