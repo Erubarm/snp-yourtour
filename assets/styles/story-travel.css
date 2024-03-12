@@ -209,11 +209,14 @@
   }
 }
 
-@media (max-width: 600px) {
+@media ( max-width: 767px) {
   .story-travel-list {
     margin-top: 50px;
     gap: 20px;
   }
+}
+
+@media (max-width: 600px) {
   .story-travel-item {
     padding: 30px;
     height: 455px;

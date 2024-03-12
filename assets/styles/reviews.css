@@ -64,7 +64,10 @@
     flex-wrap: wrap;
   }
 }
-@media (max-width: 360px) {
+
+
+
+@media (max-width: 767px) {
   .reviews-list {
     margin-top: 50px;
     -webkit-box-orient: vertical;

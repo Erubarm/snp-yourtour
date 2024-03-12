@@ -83,9 +83,10 @@
   color: #1b1f2b;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .footer__inner {
     flex-direction: column;
+    gap: 7px;
   }
   .social-list {
     gap: 15px;

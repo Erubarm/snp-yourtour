@@ -9,6 +9,7 @@
 @media ( max-width: 767px) {
   .card-list {
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    grid-gap: 18px;
 
   }
 }
@@ -378,9 +379,7 @@
   }
 }
 @media (max-width: 700px) {
-  .card-item {
-    width: 100%;
-  }
+  
   .card-item__up {
     width: 268px;
   }

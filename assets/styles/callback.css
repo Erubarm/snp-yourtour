@@ -65,7 +65,7 @@
   border-radius: 50px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .callback {
     margin-top: 75px;
     margin-bottom: 75px;
@@ -75,8 +75,8 @@
     flex-direction: column;
   }
   .callback img {
-    width: 130px;
-    height: 133px;
+    width: 50%;
+    height: 50%;
     border-radius: 20px;
   }
   .callback .callback-text h3 {
