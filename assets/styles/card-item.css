@@ -57,17 +57,7 @@
   flex-wrap: wrap;
 }
 
-@media (max-width: 767px) {
-  .choose-tour__section {
-    padding-bottom: 50px;
-    gap: 10px;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-}
+
 
 .section button {
   cursor: pointer;
@@ -77,14 +67,18 @@
   color: #1b1f2b;
   border: none;
   background: inherit;
+  
 }
 
 .section-link__focus {
   color: #efa501;
   border: none;
-
+  border-bottom: 2px solid #efa501;
+  
   background: inherit;
 }
+
+
 
 .section-link__focus {
   background-image: -webkit-gradient(
@@ -103,11 +97,13 @@
   padding-bottom: 6px;
 }
 
-@media (hover: hover) {
+
   .section-link__focus:hover {
-    background-size: 100% 2px;
+    @media (hover:hover) {
+      background-size: 100% 2px;
+    }    
   }
-}
+
 .section-link {
   background-image: -webkit-gradient(
     linear,
@@ -193,6 +189,23 @@
     width: 35vw;
   }
 }
+
+@media (max-width: 767px) {
+  .choose-tour__section {
+    padding-bottom: 50px;
+    gap: 10px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .section-link, .section-link__focus {
+    padding: 0px;
+  }
+}
+
 @media (max-width: 360px) {
   .card-item__up {
     width: 268px;

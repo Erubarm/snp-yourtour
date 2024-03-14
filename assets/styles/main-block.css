@@ -34,6 +34,12 @@
   }
 }
 
+@media ( max-width: 420px) {
+  .up__title {
+    font-size: 34px;
+  }
+}
+
 .block-title-container {
   display: -webkit-box;
   display: -ms-flexbox;
