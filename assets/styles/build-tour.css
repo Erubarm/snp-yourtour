@@ -83,6 +83,20 @@
 .form__inner-item select:focus {
   border: 1px solid var(--gray-300);
   background: var(--beige-200);
+  
+}
+
+.form__inner-item select:hover {
+  background-image: url(../icons/ic-dropdown.svg);
+    background-size: 1.5em;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0.9em);
+}
+.form__inner-item select:focus {
+  background-image: url(../icons/ic-dropdown.svg);
+    background-size: 1.5em;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0.9em);
 }
 
 .form__inner-item select {
