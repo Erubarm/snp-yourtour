@@ -79,6 +79,9 @@
     margin-top: 50px;
     gap: 18px;
   }
+  .photo-travel-item, .photo-travel-item__special {
+    border-radius: 20px;
+  }
 }
 
 @media (max-width: 600px) {

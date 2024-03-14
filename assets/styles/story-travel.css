@@ -97,11 +97,16 @@
 }
 
 .story-travel-item1, .story-travel-item2, .story-travel-item3 {
-  background-size: 130%;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: bottom;
 }
 
+@media ( max-width: 1280px ) {
+  .story-travel-item1, .story-travel-item2, .story-travel-item3 {
+    background-size: 130%;
+  }
+}
 
 
 
@@ -214,6 +219,9 @@
     margin-top: 50px;
     gap: 20px;
   }
+  .story-travel-item {
+    border-radius: 20px;
+  } 
 }
 
 @media (max-width: 600px) {
