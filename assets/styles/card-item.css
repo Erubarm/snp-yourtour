@@ -184,7 +184,7 @@
   width: 12vw;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .card-item__up {
     width: 35vw;
   }
@@ -370,7 +370,7 @@
   /* grid-area: line6; */
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .card-item {
     width: 100%;
     background-size: cover;

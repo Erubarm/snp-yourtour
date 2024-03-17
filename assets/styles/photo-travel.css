@@ -50,7 +50,7 @@
      object-fit: cover;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .travel-photo-2,
   .travel-photo-7,
   .travel-photo-13 {

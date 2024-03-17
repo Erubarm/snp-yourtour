@@ -14,7 +14,7 @@
   margin-top: 100px;
 }
 
-@media ( max-width: 1024px) {
+@media ( max-width: 1023px) {
   .form__inner {
     padding: 60px;
   }
@@ -142,7 +142,7 @@
   background: var(--beige-200);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .form__inner-line {
     gap: 20px;
   }
