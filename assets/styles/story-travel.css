@@ -6,7 +6,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  gap: 50px;
+  gap: 48px;
   margin-top: 100px;
 }
 .story-travel-list h3,

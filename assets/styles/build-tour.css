@@ -59,7 +59,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  gap: 8px;
+  gap: 5px;
   width: 100%;
 }
 
@@ -132,7 +132,7 @@
 
   background: var(--beige-100);
   border: 1px solid var(--beige-200);
-  height: 152px;
+  height: 144px;
   border-radius: 10px;
 
   outline: none;
