@@ -36,6 +36,10 @@ body {
 	background: #f9f7f4;
 }
 
+select {
+	cursor: pointer;
+}
+
 .h-1 {
 	/* H1 */
 	font-family: Roboto;
