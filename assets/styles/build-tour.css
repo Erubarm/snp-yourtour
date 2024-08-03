@@ -20,8 +20,12 @@
 	}
 }
 
-
-
+@media (max-width: 767px) {
+	.form__inner {
+		margin-top: 40px;
+		padding: 20px;
+	}
+}
 .form__inner-list {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -345,16 +349,5 @@
 
 	.form__inner-line__btns-list {
 		gap: 10px;
-	}
-}
-
-@media (max-width: 576px) {
-	.form__inner {
-		padding: 20px 20px 40px 20px;
-		border-radius: 30px;
-	}
-
-	.form__inner-item {
-		gap: 8px;
 	}
 }
