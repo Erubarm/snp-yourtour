@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+    <link rel="stylesheet" href="./assets/styles/normilize.css" />
+    <link rel="stylesheet" href="./assets/styles/interface.css" />
+    <link rel="stylesheet" href="./assets/styles/test-form.css" />
+    <title>Test-Form</title>
+  </head>
+  <body>
+    <main>
+      <section class="build-tour">
+        <div class="container">
+          <a name="build-tour"></a>
+          <div class="block-title-container">
+            <h2 class="main-title mobile-h-2">Собери свой тур</h2>
+            <p class="secondary-title secondary-title__special mobile-p-normal">
+              Идейные соображения высшего порядка, а также рамки и место
+              обучения кадров
+            </p>
+          </div>
+          <form class="form-create-tour mobile-p-normal">
+            <div class="form__inner-row">
+              <label>
+                <span>Имя</span>
+                <input
+                  type="text"
+                  placeholder="Введите Ваше имя"
+                  class="mobile-p-normal"
+                />
+              </label>
+
+              <label
+                for="direction"
+                class="form__inner-item inner-item__input-select"
+              >
+                <span>Направление</span>
+                <select name="direction-name" id="direction">
+                  <option selected disabled>Куда хотите ехать</option>
+                  <option value="">Самара</option>
+                  <option value="">Кимры</option>
+                  <option value="">Афган</option>
+                  <option value="">Гора</option>
+                </select>
+              </label>
+            </div>
+            <div class="form__inner-row">
+              <label>
+                <span>Email</span>
+                <input type="email" placeholder="example@mail.com" class="mobile-p-normal" />
+              </label>
+
+              <label>
+                <span>Телефон</span>
+                <input
+                  type="tel"
+                  placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _"
+                  class="mobile-p-normal"
+                />
+              </label>
+            </div>
+            <div class="form__inner-row">
+              <label>
+                <span class="mobile-p-normal">Дата от</span>
+                <input type="date" max="2024-06-03" placeholder="ДД.ММ.ГГГГ" class="mobile-p-normal"/>
+              </label>
+
+              <label>
+                <span class="mobile-p-normal">Дата до</span>
+                <input type="date" placeholder="ДД.ММ.ГГГГ" max="2034-06-03" class="mobile-p-normal"/>
+              </label>
+            </div>
+            <div class="form__inner-row">
+              <label>
+                <span>Комментарий</span>
+                <textarea type="text" class="mobile-p-normal"></textarea>
+              </label>
+            </div>
+            <div class="form__inner-row form__inner-row__radio">
+              <span class="mobile-p-normal">Вам есть 18 лет?</span>
+              <div class="inner-row__radio-row">
+                <label for="radio-age-yes" class="radio-age">
+                  <input type="radio" name="radio-age" id="radio-age-yes">
+                  <span class="custom-age-radio"></span>
+                  <p>Да</p>
+                </label>
+                <label for="radio-age-no" class="radio-age">
+                  <input type="radio" name="radio-age" id="radio-age-no">
+                  <span class="custom-age-radio"></span>
+                  <p>Нет</p>
+                </label>
+              </div>
+            </div>
+            <div class="form__inner-row">
+              <label for="agree-licence" class="checkbox-container">
+                <input
+                  type="checkbox"
+                  name="agree-licence"
+                  id="agree-licence"
+                />
+                <span class="custom-checkbox"></span>
+                <p class="mobile-p-normal">
+                  Нажимая кнопку, я принимаю условия
+                    <a href="#">Лицензионного договора</a>
+                </p>
+              </label>
+            </div>
+            <div class="form__inner-row form__inner-row__buttons">
+              <input type="submit" value="Найти тур" class="mobile-p-normal"></input>
+              <input type="reset" value="Сбросить" class="mobile-p-normal"></input>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
