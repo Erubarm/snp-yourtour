@@ -142,7 +142,7 @@
     border-radius: 50px;
     padding: 7px 20px;
   }
-  .card-item .more:active {
+  .more:active {
     background-color: #efa501;
     border-radius: 50px;
     padding: 7px 20px;
@@ -163,26 +163,9 @@
   width: 12vw;
 }
 
-@media (min-width: 360px) {
+@media (max-width: 1023px) {
   .card-item__up {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 13px;
-  }
-}
-@media (min-width: 1024px) {
-  .card-item__up {
-    gap: 16px;
-  }
-}
-@media (max-width: 1024px) {
-  .card-item__up {
-    width: 36vw;
+    width: 35vw;
   }
 }
 @media (max-width: 767px) {

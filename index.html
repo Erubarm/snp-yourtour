@@ -101,7 +101,7 @@
 						<main class="card-list">
 							<article class="card-item card-item__one">
 								<div class="card-item__up">
-									<p class="title h-3">Путешествие в горы</p>
+									<h3 class="title h-3">Путешествие в горы</h3>
 									<p class="price p-small">от 80 000 руб.</p>
 								</div>
 								<div class="card-item__down">
@@ -117,7 +117,7 @@
 							</article>
 							<article class="card-item card-item__two">
 								<div class="card-item__up">
-									<p class="title h-3">Путешествие в горы</p>
+									<h3 class="title h-3">Путешествие в горы</h3>
 									<p class="price p-small">от 80 000 руб.</p>
 								</div>
 								<div class="card-item__down">
@@ -133,7 +133,7 @@
 							</article>
 							<article class="card-item card-item__three">
 								<div class="card-item__up">
-									<p class="title h-3">Путешествие в горы</p>
+									<h3 class="title h-3">Путешествие в горы</h3>
 									<p class="price p-small">от 80 000 руб.</p>
 								</div>
 								<div class="card-item__down">
@@ -150,7 +150,7 @@
 
 							<article class="card-item card-item__four">
 								<div class="card-item__up">
-									<p class="title h-3">Путешествие в горы</p>
+									<h3 class="title h-3">Путешествие в горы</h3>
 									<p class="price p-small">от 80 000 руб.</p>
 								</div>
 								<div class="card-item__down">
@@ -166,7 +166,7 @@
 							</article>
 							<article class="card-item card-item__five">
 								<div class="card-item__up">
-									<p class="title h-3">Путешествие в горы</p>
+									<h3 class="title h-3">Путешествие в горы</h3>
 									<p class="price p-small">от 80 000 руб.</p>
 								</div>
 								<div class="card-item__down">
@@ -182,7 +182,7 @@
 							</article>
 							<article class="card-item card-item__six">
 								<div class="card-item__up">
-									<p class="title h-3">Путешествие в горы</p>
+									<h3 class="title h-3">Путешествие в горы</h3>
 									<p class="price p-small">от 80 000 руб.</p>
 								</div>
 								<div class="card-item__down">
@@ -210,145 +210,96 @@
 								обучения кадров
 							</p>
 						</div>
-						<form class="form__inner p-normal">
-							<ul class="form__inner-list">
-								<li class="form__inner-line">
-									<label for="name" class="form__inner-item"
-										>Имя
-										<input
-											type="text"
-											id="name"
-											placeholder="Введите Ваше имя"
-											class="inner-item__input p-normal"
-										/>
-									</label>
-									<label
-										for="direction"
-										class="form__inner-item inner-item__input-select"
-										>Направление
-
-										<select name="direction-name" id="direction">
-											<option selected disabled>Куда хотите поехать</option>
-											<option value="">Самара</option>
-											<option value="">Кимры</option>
-											<option value="">Афган</option>
-											<option value="">Гора</option>
-										</select>
-									</label>
-								</li>
-
-								<li class="form__inner-line">
-									<label for="email" class="form__inner-item"
-										>Email
-										<input
-											type="email"
-											name="email"
-											id="email"
-											placeholder="example@mail.com"
-											class="inner-item__input p-normal"
-										/>
-									</label>
-									<label for="telephone" class="form__inner-item"
-										>Телефон
-										<input
-											type="tel"
-											name="telephone"
-											id="telephone"
-											placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _"
-											class="inner-item__input p-normal"
-										/>
-									</label>
-								</li>
-
-								<li class="form__inner-line">
-									<label for="date-from" class="form__inner-item"
-										>Дата от
-										<input
-											type="date"
-											max="2024-06-03"
-											placeholder="ДД.ММ.ГГГГ"
-											class="inner-item__input p-normal"
-										/>
-									</label>
-									<label for="date-before" class="form__inner-item"
-										>Дата до
-										<input
-											type="date"
-											placeholder="ДД.ММ.ГГГГ"
-											max="2034-06-03"
-											class="inner-item__input p-normal"
-										/>
-									</label>
-								</li>
-
-								<li class="form__inner-line__special">
-									<p class="p-normal">Комментарий</p>
-									<label for="comment" class="form__inner-item__special">
-										<textarea
-											type="text"
-											class="inner-item__input-special p-normal"
-											id="comment"
-										></textarea>
-									</label>
-								</li>
-
-								<li class="form__inner-line">
-									<label for="radio-age" class="form__inner-item">
-										<p>Вам есть 18 лет?</p>
-										<div class="radio-age">
-											<label for="radio-age-yes" class="radio-age-label-input">
-												<input
-													type="radio"
-													name="radio-age"
-													id="radio-age-yes"
-												/>
-												<span></span>
-												Да
-											</label>
-											<label for="radio-age-no" class="radio-age-label-input">
-												<input
-													type="radio"
-													name="radio-age"
-													id="radio-age-no"
-												/>
-												<span></span>
-												Нет</label
-											>
-										</div>
-									</label>
-								</li>
-
-								<li class="form__inner-line">
-									<label for="license-agree" class="form__inner-license">
-										<input
-											type="checkbox"
-											name="license-agree"
-											id="license-agree"
-										/>
-										<span class="check-box-style"></span>
-
-										<p class="p-small">
-											Нажимая кнопку, я принимаю условия
-											<strong class="p-small">
-												<a href="#">Лицензионного договора</a>
-											</strong>
-										</p>
-									</label>
-								</li>
-
-								<li class="form__inner-line__btns-list">
+						<form class="form-create-tour p-normal">
+							<div class="form__inner-row">
+								<label>
+									<span>Имя</span>
 									<input
-										type="submit"
-										value="Найти тур"
-										class="inner-line__btn inner-line__btn-submit p-normal"
+										type="text"
+										placeholder="Введите Ваше имя"
+										class="p-normal"
 									/>
+								</label>
+	
+								<label
+									for="direction"
+									class="form__inner-item inner-item__input-select"
+								>
+									<span>Направление</span>
+									<select name="direction-name" id="direction">
+										<option selected disabled>Куда хотите ехать</option>
+										<option value="">Самара</option>
+										<option value="">Кимры</option>
+										<option value="">Афган</option>
+										<option value="">Гора</option>
+									</select>
+								</label>
+							</div>
+							<div class="form__inner-row">
+								<label>
+									<span>Email</span>
+									<input type="email" placeholder="example@mail.com" class="p-normal" />
+								</label>
+	
+								<label>
+									<span>Телефон</span>
 									<input
-										type="reset"
-										value="Сбросить"
-										class="inner-line__btn inner-line__btn-reset p-normal"
+										type="tel"
+										placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _"
+										class="p-normal"
 									/>
-								</li>
-							</ul>
+								</label>
+							</div>
+							<div class="form__inner-row">
+								<label>
+									<span class="p-normal">Дата от</span>
+									<input type="date" max="2024-06-03" placeholder="ДД.ММ.ГГГГ" class="p-normal"/>
+								</label>
+	
+								<label>
+									<span class="p-normal">Дата до</span>
+									<input type="date" placeholder="ДД.ММ.ГГГГ" max="2034-06-03" class="p-normal"/>
+								</label>
+							</div>
+							<div class="form__inner-row">
+								<label>
+									<span>Комментарий</span>
+									<textarea type="text" class="p-normal"></textarea>
+								</label>
+							</div>
+							<div class="form__inner-row form__inner-row__radio">
+								<span class="p-normal">Вам есть 18 лет?</span>
+								<div class="inner-row__radio-row">
+									<label for="radio-age-yes" class="radio-age">
+										<input type="radio" name="radio-age" id="radio-age-yes">
+										<span class="custom-age-radio"></span>
+										<p>Да</p>
+									</label>
+									<label for="radio-age-no" class="radio-age">
+										<input type="radio" name="radio-age" id="radio-age-no">
+										<span class="custom-age-radio"></span>
+										<p>Нет</p>
+									</label>
+								</div>
+							</div>
+							<div class="form__inner-row">
+								<label for="agree-licence" class="checkbox-container">
+									<input
+										type="checkbox"
+										name="agree-licence"
+										id="agree-licence"
+									/>
+									<span class="custom-checkbox"></span>
+									<p class="p-small">
+										Нажимая кнопку, я принимаю условия
+											<a href="#">Лицензионного договора</a>
+									</p>
+								</label>
+							</div>
+							<div class="form__inner-row form__inner-row__buttons">
+								<input type="submit" value="Найти тур" class="p-normal"></input>
+								<input type="reset" value="Сбросить" class="p-normal"></input>
+							</div>
 						</form>
 					</div>
 				</section>
@@ -655,14 +606,14 @@
 			<footer class="footer p-normal">
 				<div class="container">
 					<div class="footer__inner">
-						<p class="social-text">Наши социальные сети</p>
+						<p class="social-text p-normal">Наши социальные сети</p>
 						<ul class="social-list">
 							<li class="social-items">
 								<a href="#" class="social-item__link">
 									<img
-										src="./assets/icons/inst.svg"
+										src="./assets/icons/inst-14px.svg"
 										alt="instagram"
-										class="social-item__logo"
+										class="social-item__logo logo-inst"
 									/>
 									<p class="social-item__title">instagram</p>
 								</a>
@@ -670,9 +621,9 @@
 							<li class="social-items">
 								<a href="#" class="social-item__link">
 									<img
-										src="./assets/icons/fb.svg"
+										src="./assets/icons/fb-8px.svg"
 										alt="facebook"
-										class="social-item__logo"
+										class="social-item__logo logo-fb"
 									/>
 									<p class="social-item__title">facebook</p>
 								</a>
@@ -680,9 +631,9 @@
 							<li class="social-items">
 								<a href="#" class="social-item__link">
 									<img
-										src="./assets/icons/vk.svg"
+										src="./assets/icons/vk-20px.svg"
 										alt="vkontakte"
-										class="social-item__logo"
+										class="social-item__logo logo-vk"
 									/>
 									<p class="social-item__title">vkontakte</p>
 								</a>

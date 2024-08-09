@@ -1,88 +1,92 @@
 .callback {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  gap: 30px;
-  margin-bottom: 135px;
-  margin-top: 135px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	gap: 30px;
+	margin-bottom: 135px;
+	margin-top: 135px;
 }
 
 .callback-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  gap: 20px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	gap: 20px;
+
+	h3 {
+		color: var(--black);
+	}
 }
 
 .callback-text p {
-  color: var(--Gray-300, #a6a6a6);
+	color: var(--Gray-300, #a6a6a6);
 }
 
 .callback-email {
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(currentColor),
-    to(currentColor)
-  );
-  background-image: linear-gradient(currentColor, currentColor);
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 0% 2px;
-  padding-bottom: 6px;
-  color: #1b1f2b;
-  -webkit-transition: 300ms ease;
-  transition: 300ms ease;
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(currentColor),
+		to(currentColor)
+	);
+	background-image: linear-gradient(currentColor, currentColor);
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+	background-size: 0% 2px;
+	padding-bottom: 6px;
+	color: #1b1f2b;
+	-webkit-transition: 300ms ease;
+	transition: 300ms ease;
 }
 
 @media (hover: hover) {
-  .callback-email:hover {
-    background-size: 100% 2px;
-    cursor: pointer;
-  }
-  .callback-email:active {
-    color: #286562;
-  }
+	.callback-email:hover {
+		background-size: 100% 2px;
+		cursor: pointer;
+	}
+	.callback-email:active {
+		color: #286562;
+	}
 }
 .callback-img {
-  width: 370px;
-  height: 370px;
-  border-radius: 50px;
+	width: 370px;
+	height: 370px;
+	border-radius: 50px;
 }
 
 @media (max-width: 767px) {
-  .callback {
-    margin-top: 75px;
-    margin-bottom: 75px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-  .callback img {
-    width: 50%;
-    height: 50%;
-    border-radius: 20px;
-  }
-  .callback .callback-text h3 {
-    text-align: center;
-  }
-  .callback .callback-text p {
-    text-align: center;
-  }
+	.callback {
+		margin-top: 75px;
+		margin-bottom: 75px;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.callback img {
+		width: 130px;
+		height: 133px;
+		border-radius: 20px;
+	}
+	.callback .callback-text h3 {
+		text-align: center;
+	}
+	.callback .callback-text p {
+		text-align: center;
+	}
 }

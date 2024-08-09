@@ -46,7 +46,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 30px;
+    gap: 31px;
   }
   .form__inner-row label {
     display: -webkit-box;
@@ -367,31 +367,5 @@
     height: -moz-fit-content;
     height: fit-content;
     width: 235px;
-  }
-}
-@media (hover: hover) {
-  .form__inner-row__buttons input[type=submit]:hover {
-    background-color: var(--green-300);
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-  }
-  .form__inner-row__buttons input[type=submit]:active {
-    background-color: var(--green-200);
-  }
-  .form__inner-row__buttons input[type=reset]:hover {
-    background-color: var(--gray-100);
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-  }
-  .form__inner-row__buttons input[type=reset]:active {
-    background-color: var(--gray-200);
-  }
-  .checkbox-container a:hover {
-    text-decoration: underline;
-    -webkit-text-decoration-skip-ink: none;
-            text-decoration-skip-ink: none;
-  }
-  .checkbox-container p a:active {
-    color: var(--green-400);
   }
 }

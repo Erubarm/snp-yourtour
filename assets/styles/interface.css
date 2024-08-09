@@ -85,7 +85,7 @@ body {
     font-size: 23px;
     line-height: 120%;
     letter-spacing: 0.04em;
-    color: var(--black);
+    color: var(--white);
   }
 }
 @media (min-width: 1024px) {
@@ -94,7 +94,7 @@ body {
     font-weight: 500;
     font-size: 35px;
     line-height: 122%;
-    color: var(--black);
+    color: var(--white);
   }
 }
 
@@ -103,7 +103,7 @@ body {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 16px;
-    line-height: 142%;
+    line-height: 22.72px;
     color: var(--black);
   }
 }
@@ -200,14 +200,17 @@ body {
 @media (max-width: 768px) {
   .container {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 21px;
   }
 }
+.title-discription,
+.secondary-title,
+.price,
+.more {
+  color: var(--white);
+}
+
 @media (max-width: 360px) {
-  .container {
-    width: 100%;
-    padding: 0 20px;
-  }
   .title-discription {
     max-width: 310px;
   }
@@ -243,5 +246,25 @@ a {
 @media (max-width: 420px) {
   .secondary-title {
     width: 318px;
+  }
+}
+.block-title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (min-width: 1024px) {
+  .block-title-container {
+    gap: 30px;
   }
 }
