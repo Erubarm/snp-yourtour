@@ -37,6 +37,11 @@ body {
 	background: #f9f7f4;
 }
 
+button {
+	background: transparent;
+	border: none;
+}
+
 h1 {
 	@media (min-width: 360px) {
 		font-family: var(--font-family);
@@ -187,21 +192,21 @@ h3 {
 }
 
 .container {
-	max-width: 1170px;
 	margin: 0 auto;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1024px) {
 	.container {
 		width: 100%;
 		padding: 0 57px;
 	}
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
 	.container {
+		max-width: 918px;
 		width: 100%;
-		padding: 0 53px;
+		padding: 0 0;
 		align-items: center;
 	}
 	.title-discription {
@@ -209,10 +214,17 @@ h3 {
 	}
 }
 
+@media (min-width: 1920px) {
+	.container {
+		max-width: 1170px;
+		width: 100%;
+	}
+}
+
 @media (max-width: 768px) {
 	.container {
 		width: 100%;
-		padding: 0 21px;
+		padding: 0 22px;
 	}
 }
 

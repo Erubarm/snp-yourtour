@@ -14,8 +14,7 @@
 }
 
 .main-title__special {
-	padding-top: 135px;
-	padding-bottom: 34px;
+	margin-top: 135px;
 	text-align: center;
 	color: #1b1f2b;
 }
@@ -34,7 +33,6 @@
 		padding-top: 0px;
 	}
 	.main-title__special {
-		padding-bottom: 30px;
 	}
 	.main-title {
 		padding-bottom: 20px;
@@ -188,6 +186,20 @@
 @media (min-width: 1024px) {
 	.card-item__up {
 		gap: 16px;
+	}
+
+	.choose-tour__title {
+		display: flex;
+		flex-direction: column;
+		gap: 35px;
+	}
+}
+
+@media (min-width: 360px) {
+	.choose-tour__title {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
 	}
 }
 

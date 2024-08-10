@@ -1,5 +1,9 @@
-.form-create-tour {
-  background: var(--white);
+.choose-tour__filter-focus {
+  color: var(--orange-200);
+  border-bottom: 2px solid var(--orange-200);
+}
+
+.block-title-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7,365 +11,221 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  gap: 30px;
 }
-
-.form__inner-row {
+@media (min-width: 1024px) {
+  .block-title-container {
+    gap: 35px;
+  }
+}
+.block-title-container ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-
-@media (hover: hover) {
-  form label select:hover,
-  form label input:hover,
-  form label textarea:hover {
-    background: var(--beige-200);
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-  }
-  form label select:hover {
-    background-image: url(../icons/ic-dropdown.svg);
-    background-size: 1.5em;
-    background-repeat: no-repeat;
-    background-position: calc(100% - 0.9em);
-  }
-  .radio-age,
-  .custom-checkbox {
-    cursor: pointer;
-  }
-}
-@media (min-width: 360px) {
-  .form-create-tour {
-    border-radius: 30px;
-    padding: 20px 20px 40px 20px;
-    gap: 30px;
-    margin-top: 40px;
-  }
-  .form__inner-row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 31px;
-  }
-  .form__inner-row label {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 8px;
-  }
-  .form__inner-row label input,
-  .form__inner-row label select,
-  .form__inner-row label textarea {
-    cursor: pointer;
-    padding: 10px;
-    border: 1px solid var(--beige-200);
-    background: var(--beige-100);
-    border-radius: 10px;
-  }
-  .form__inner-row label span {
-    height: 23px;
-  }
-  .form__inner-row label input {
-    height: 43px;
-  }
-  .form__inner-row label textarea {
-    height: 132px;
-  }
-  .form__inner-row label select {
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
-    background-image: url("../icons/ic-dropdown.svg");
-    background-repeat: no-repeat;
-    background-size: 1.5em;
-    background-position: calc(100% - 0.9em);
-    height: 46px;
-  }
-  .form__inner-row label input[type=radio] {
-    display: none;
-  }
-  .form__inner-row label .custom-age-radio {
-    position: relative;
-    height: 20px;
-    width: 20px;
-    background-color: var(--white);
-    border: 2px solid var(--black);
-    border-radius: 50%;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-  }
-  .form__inner-row label .custom-age-radio::after {
-    content: "";
-    position: absolute;
-    display: none;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    height: 10px;
-    width: 10px;
-    background-color: black;
-    border-radius: 50%;
-  }
-  .form__inner-row label input[type=radio]:checked + .custom-age-radio::after {
-    display: block;
-  }
-  .form__inner-row .inner-row__radio-row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    gap: 30px;
-  }
-  .form__inner-row .radio-age {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    gap: 10px;
-  }
-  .form__inner-row .checkbox-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    gap: 10px;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-  .form__inner-row .checkbox-container input[type=checkbox] {
-    display: none;
-  }
-  .form__inner-row .custom-checkbox {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border: 2px solid var(--black);
-    border-radius: 4px;
-  }
-  .form__inner-row .checkbox-container input[type=checkbox]:checked + .custom-checkbox::after {
-    content: "";
-    width: 12px;
-    height: 11px;
-    background-image: url(/assets/icons/rectangle.svg);
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    position: absolute;
-  }
-  .form__inner-row .checkbox-container p {
-    color: var(--gray-300);
-    margin-left: 30px;
-  }
-  .form__inner-row .checkbox-container p a {
-    color: black;
-  }
-  .form__inner-row__buttons {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    gap: 10px;
-  }
-  .form__inner-row__radio {
-    gap: 8px;
-  }
-  .form__inner-row__radio span,
-  .form__inner-row__radio p {
-    height: 23px;
-  }
-  .form__inner-row__buttons input {
-    padding: 12px 30px 12px 30px;
-    border-radius: 10px;
-    border: none;
-    height: 47px;
-    cursor: pointer;
-  }
-  .form__inner-row__buttons input[type=submit] {
-    background-color: var(--green-400);
-    color: var(--white);
-  }
-  .form__inner-row__buttons input[type=reset] {
-    background-color: var(--green-100);
-    color: var(--green-400);
-  }
-}
-.radio-age input[type=radio]:checked .custom-age-radio::after {
-  display: block;
-}
-
 @media (min-width: 1024px) {
-  .form-create-tour {
-    border-radius: 50px;
-    padding: 60px;
-    margin-top: 100px;
-    gap: 33px;
-  }
-  .form__inner-row {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    gap: 20px;
-  }
-  .form__inner-row label {
-    width: 100%;
-  }
-  .form__inner-row label span {
-    height: 28px;
-  }
-  .form__inner-row label input,
-  .form__inner-row label select {
-    padding: 20px;
-    height: 68px;
-  }
-  .form__inner-row label textarea {
-    height: 152px;
-  }
-  .form__inner-row .checkbox-container {
-    height: 26px;
-    gap: 11px;
-  }
-  .form__inner-row .checkbox-container p {
-    margin-left: 36px;
-  }
-  .form__inner-row .checkbox-container .custom-checkbox {
-    width: 26px;
-    height: 26px;
-  }
-  .form__inner-row .checkbox-container .custom-checkbox::after {
-    width: 13px;
-    height: 11px;
-  }
-  .form__inner-row__radio {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    gap: 15px;
-  }
-  .form__inner-row__radio .inner-row__radio-row {
-    gap: 31px;
-  }
-  .form__inner-row__radio .inner-row__radio-row .radio-age {
-    gap: 11px;
-  }
-  .form__inner-row__radio .inner-row__radio-row .radio-age .custom-age-radio {
-    width: 26px;
-    height: 26px;
-  }
-  .form__inner-row__radio .inner-row__radio-row .radio-age .custom-age-radio::after {
-    width: 12px;
-    height: 12px;
-  }
-  .form__inner-row__buttons {
+  .block-title-container ul {
     gap: 30px;
   }
-  .form__inner-row__buttons input {
-    padding: 15px 30px;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    width: 235px;
+}
+
+.card-list {
+  margin-top: 49px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 18px;
+}
+@media (min-width: 1024px) {
+  .card-list {
+    margin-top: 102px;
   }
 }
 @media (min-width: 1920px) {
-  .form-create-tour {
+  .card-list {
+    gap: 30px;
+  }
+}
+.card-list .card-item {
+  height: 318px;
+  border-radius: 20px;
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+@media (min-width: 1024px) {
+  .card-list .card-item {
+    height: 531px;
+    padding: 50px;
     border-radius: 50px;
-    padding: 70px;
-    margin-top: 100px;
-    gap: 33px;
   }
-  .form__inner-row {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    gap: 30px;
+}
+@media (max-width: 642px) {
+  .card-list .card-item {
+    width: 100%;
   }
-  .form__inner-row label span {
-    height: 28px;
+}
+@media (hover: hover) {
+  .card-list .card-item:hover {
+    background-size: 120%;
+    padding-left: 30px;
+    padding-bottom: 43px;
   }
-  .form__inner-row label input,
-  .form__inner-row label select {
-    padding: 20px;
-    height: 68px;
+  .card-list .card-item:hover .more {
+    padding: 7px 20px;
+    border-radius: 50px;
+    background-color: var(--green-400);
   }
-  .form__inner-row .checkbox-container {
-    height: 26px;
-    gap: 11px;
+}
+.card-list .card-item .card-item__up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+@media (min-width: 1024px) {
+  .card-list .card-item .card-item__up {
+    width: 350px;
   }
-  .form__inner-row .checkbox-container p {
-    margin-left: 44px;
+}
+@media (min-width: 1920px) {
+  .card-list .card-item .card-item__up {
+    width: 270px;
   }
-  .form__inner-row .checkbox-container .custom-checkbox {
-    width: 26px;
-    height: 26px;
+}
+.card-list .card-item .card-item__up p {
+  color: var(--white);
+}
+.card-list .card-item .card-item__down a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+@media (hover: hover) {
+  .card-list .card-item .card-item__down a:hover {
+    padding: 7px 20px;
+    border-radius: 50px;
+    background-color: var(--green-400);
   }
-  .form__inner-row .checkbox-container .custom-checkbox::after {
-    width: 13px;
-    height: 11px;
+}
+.card-list .card-item-1 {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(/assets/img/card-tour-photo-1.jpg);
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/assets/img/card-tour-photo-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 420px) and (max-width: 642px) {
+  .card-list .card-item-1 {
+    background-position: bottom;
   }
-  .form__inner-row__radio {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    gap: 15px;
+}
+.card-list .card-item-2 {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(/assets/img/card-tour-photo-2.jpg);
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/assets/img/card-tour-photo-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 420px) and (max-width: 642px) {
+  .card-list .card-item-2 {
+    background-position: bottom;
   }
-  .form__inner-row__radio .inner-row__radio-row {
-    gap: 31px;
+}
+.card-list .card-item-3 {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(/assets/img/card-tour-photo-3.jpg);
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/assets/img/card-tour-photo-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 420px) and (max-width: 642px) {
+  .card-list .card-item-3 {
+    background-position: bottom;
   }
-  .form__inner-row__radio .inner-row__radio-row .radio-age {
-    gap: 11px;
+}
+.card-list .card-item-4 {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(/assets/img/card-tour-photo-4.jpg);
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/assets/img/card-tour-photo-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 420px) and (max-width: 642px) {
+  .card-list .card-item-4 {
+    background-position: bottom;
   }
-  .form__inner-row__radio .inner-row__radio-row .radio-age .custom-age-radio {
-    width: 26px;
-    height: 26px;
+}
+.card-list .card-item-5 {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(/assets/img/card-tour-photo-5.jpg);
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/assets/img/card-tour-photo-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 420px) and (max-width: 642px) {
+  .card-list .card-item-5 {
+    background-position: bottom;
   }
-  .form__inner-row__radio .inner-row__radio-row .radio-age .custom-age-radio::after {
-    width: 12px;
-    height: 12px;
-  }
-  .form__inner-row__buttons {
-    gap: 30px;
-  }
-  .form__inner-row__buttons input {
-    padding: 15px 30px;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    width: 235px;
+}
+.card-list .card-item-6 {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(/assets/img/card-tour-photo-6.jpg);
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/assets/img/card-tour-photo-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 420px) and (max-width: 642px) {
+  .card-list .card-item-6 {
+    background-position: bottom;
   }
 }

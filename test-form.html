@@ -1,124 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
 			rel="stylesheet"
 		/>
-    <link rel="stylesheet" href="./assets/styles/normilize.css" />
-    <link rel="stylesheet" href="./assets/styles/interface.css" />
-    <link rel="stylesheet" href="./assets/styles/test-form.css" />
-    <title>Test-Form</title>
-  </head>
-  <body>
-    <main>
-      <section class="build-tour">
-        <div class="container">
-          <a name="build-tour"></a>
-          <div class="block-title-container">
-            <h2 class="main-title h-2">Собери свой тур</h2>
-            <p class="secondary-title secondary-title__special p-normal">
-              Идейные соображения высшего порядка, а также рамки и место
-              обучения кадров
-            </p>
-          </div>
-          <form class="form-create-tour p-normal">
-            <div class="form__inner-row">
-              <label>
-                <span>Имя</span>
-                <input
-                  type="text"
-                  placeholder="Введите Ваше имя"
-                  class="p-normal"
-                />
-              </label>
-
-              <label
-                for="direction"
-                class="form__inner-item inner-item__input-select"
-              >
-                <span>Направление</span>
-                <select name="direction-name" id="direction">
-                  <option selected disabled>Куда хотите ехать</option>
-                  <option value="">Самара</option>
-                  <option value="">Кимры</option>
-                  <option value="">Афган</option>
-                  <option value="">Гора</option>
-                </select>
-              </label>
-            </div>
-            <div class="form__inner-row">
-              <label>
-                <span>Email</span>
-                <input type="email" placeholder="example@mail.com" class="p-normal" />
-              </label>
-
-              <label>
-                <span>Телефон</span>
-                <input
-                  type="tel"
-                  placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _"
-                  class="p-normal"
-                />
-              </label>
-            </div>
-            <div class="form__inner-row">
-              <label>
-                <span class="p-normal">Дата от</span>
-                <input type="date" max="2024-06-03" placeholder="ДД.ММ.ГГГГ" class="p-normal"/>
-              </label>
-
-              <label>
-                <span class="p-normal">Дата до</span>
-                <input type="date" placeholder="ДД.ММ.ГГГГ" max="2034-06-03" class="p-normal"/>
-              </label>
-            </div>
-            <div class="form__inner-row">
-              <label>
-                <span>Комментарий</span>
-                <textarea type="text" class="p-normal"></textarea>
-              </label>
-            </div>
-            <div class="form__inner-row form__inner-row__radio">
-              <span class="p-normal">Вам есть 18 лет?</span>
-              <div class="inner-row__radio-row">
-                <label for="radio-age-yes" class="radio-age">
-                  <input type="radio" name="radio-age" id="radio-age-yes">
-                  <span class="custom-age-radio"></span>
-                  <p>Да</p>
-                </label>
-                <label for="radio-age-no" class="radio-age">
-                  <input type="radio" name="radio-age" id="radio-age-no">
-                  <span class="custom-age-radio"></span>
-                  <p>Нет</p>
-                </label>
-              </div>
-            </div>
-            <div class="form__inner-row">
-              <label for="agree-licence" class="checkbox-container">
-                <input
-                  type="checkbox"
-                  name="agree-licence"
-                  id="agree-licence"
-                />
-                <span class="custom-checkbox"></span>
-                <p class="p-small">
-                  Нажимая кнопку, я принимаю условия
-                    <a href="#">Лицензионного договора</a>
-                </p>
-              </label>
-            </div>
-            <div class="form__inner-row form__inner-row__buttons">
-              <input type="submit" value="Найти тур" class="p-normal"></input>
-              <input type="reset" value="Сбросить" class="p-normal"></input>
-            </div>
-          </form>
-        </div>
-      </section>
-    </main>
-  </body>
+		<link rel="stylesheet" href="./assets/styles/normilize.css" />
+		<link rel="stylesheet" href="./assets/styles/interface.css" />
+		<link rel="stylesheet" href="./assets/styles/test-form.css" />
+		<title>Test-Form</title>
+	</head>
+	<body>
+		<main>
+			<section class="choose-tour">
+				<div class="container">
+					<div class="choose-tour__inner">
+						<div class="block-title-container">
+							<h2>Выбери свой тур</h2>
+							<ul>
+								<li>
+									<button class="p-big choose-tour__filter-focus">
+										Популярные
+									</button>
+								</li>
+								<li><button class="p-big">Авторские</button></li>
+								<li><button class="p-big">Походы</button></li>
+								<li><button class="p-big">Сплавы</button></li>
+								<li><button class="p-big">Велопрогулки</button></li>
+							</ul>
+						</div>
+						<ul class="card-list">
+							<li class="card-item card-item-1">
+								<div class="card-item__up">
+									<h3>Путешествие в горы</h3>
+									<p class="p-small">от 80 000 руб</p>
+								</div>
+								<div class="card-item__down">
+									<a href="#story-travel" class="more p-big"
+										>Подробнее
+										<img
+											src="./assets/icons/arrow-bt.svg"
+											alt=""
+											class="arrow"
+										/>
+									</a>
+								</div>
+							</li>
+							<li class="card-item card-item-2">
+								<div class="card-item__up">
+									<h3>Путешествие в горы</h3>
+									<p class="p-small">от 80 000 руб</p>
+								</div>
+								<div class="card-item__down">
+									<a href="#story-travel" class="more p-big"
+										>Подробнее
+										<img
+											src="./assets/icons/arrow-bt.svg"
+											alt=""
+											class="arrow"
+										/>
+									</a>
+								</div>
+							</li>
+							<li class="card-item card-item-3">
+								<div class="card-item__up">
+									<h3>Путешествие в горы</h3>
+									<p class="p-small">от 80 000 руб</p>
+								</div>
+								<div class="card-item__down">
+									<a href="#story-travel" class="more p-big"
+										>Подробнее
+										<img
+											src="./assets/icons/arrow-bt.svg"
+											alt=""
+											class="arrow"
+										/>
+									</a>
+								</div>
+							</li>
+							<li class="card-item card-item-4">
+								<div class="card-item__up">
+									<h3>Путешествие в горы</h3>
+									<p class="p-small">от 80 000 руб</p>
+								</div>
+								<div class="card-item__down">
+									<a href="#story-travel" class="more p-big"
+										>Подробнее
+										<img
+											src="./assets/icons/arrow-bt.svg"
+											alt=""
+											class="arrow"
+										/>
+									</a>
+								</div>
+							</li>
+							<li class="card-item card-item-5">
+								<div class="card-item__up">
+									<h3>Путешествие в горы</h3>
+									<p class="p-small">от 80 000 руб</p>
+								</div>
+								<div class="card-item__down">
+									<a href="#story-travel" class="more p-big"
+										>Подробнее
+										<img
+											src="./assets/icons/arrow-bt.svg"
+											alt=""
+											class="arrow"
+										/>
+									</a>
+								</div>
+							</li>
+							<li class="card-item card-item-6">
+								<div class="card-item__up">
+									<h3>Путешествие в горы</h3>
+									<p class="p-small">от 80 000 руб</p>
+								</div>
+								<div class="card-item__down">
+									<a href="#story-travel" class="more p-big"
+										>Подробнее
+										<img
+											src="./assets/icons/arrow-bt.svg"
+											alt=""
+											class="arrow"
+										/>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
 </html>

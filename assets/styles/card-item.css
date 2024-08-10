@@ -13,8 +13,7 @@
   }
 }
 .main-title__special {
-  padding-top: 135px;
-  padding-bottom: 34px;
+  margin-top: 135px;
   text-align: center;
   color: #1b1f2b;
 }
@@ -31,9 +30,6 @@
   .main-title__special {
     margin-top: 75px;
     padding-top: 0px;
-  }
-  .main-title__special {
-    padding-bottom: 30px;
   }
   .main-title {
     padding-bottom: 20px;
@@ -178,6 +174,28 @@
 @media (min-width: 1024px) {
   .card-item__up {
     gap: 16px;
+  }
+  .choose-tour__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 35px;
+  }
+}
+@media (min-width: 360px) {
+  .choose-tour__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
   }
 }
 @media (max-width: 1024px) {
