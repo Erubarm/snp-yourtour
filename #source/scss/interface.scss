@@ -43,13 +43,13 @@ button {
 }
 
 h1 {
-	letter-spacing: normal;
 	@media (min-width: 360px) {
 		font-family: var(--font-family);
 		font-weight: 700;
 		font-size: 34px;
 		line-height: 112%;
 		letter-spacing: 0.02em;
+
 		color: var(--black);
 	}
 
@@ -58,7 +58,7 @@ h1 {
 		font-weight: 700;
 		font-size: 96px;
 		line-height: 109%;
-		letter-spacing: 0.02em;
+		letter-spacing: normal;
 		color: var(--black);
 	}
 }
@@ -71,7 +71,6 @@ h2 {
 		line-height: 112%;
 		letter-spacing: 0.02em;
 		color: var(--black);
-		letter-spacing: normal;
 	}
 
 	@media (min-width: 1024px) {
@@ -80,6 +79,7 @@ h2 {
 		font-size: 59px;
 		line-height: 124%;
 		color: var(--black);
+		letter-spacing: normal;
 	}
 }
 
@@ -99,6 +99,7 @@ h3 {
 		font-size: 35px;
 		line-height: 122%;
 		color: var(--white);
+		letter-spacing: normal;
 	}
 }
 
@@ -156,6 +157,10 @@ h3 {
 	letter-spacing: -0.01em;
 	color: var(--black);
 	// letter-spacing: normal;
+}
+
+.main-title {
+	text-align: center;
 }
 
 .p-big {
@@ -292,5 +297,23 @@ a {
 	}
 	@media (min-width: 1024px) {
 		gap: 30px;
+	}
+}
+
+.more {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 15px;
+
+	width: fit-content;
+	transition: all 0.3s ease;
+
+	@media (hover: hover) {
+		&:hover {
+			padding: 7px 20px;
+			border-radius: 50px;
+			background-color: var(--green-400);
+		}
 	}
 }

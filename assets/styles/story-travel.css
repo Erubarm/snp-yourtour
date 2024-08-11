@@ -63,6 +63,11 @@
 		),
 		url(../img/story-photo-1.jpg);
 }
+@media (max-width: 1024px) {
+	.story-travel-item1 {
+		gap: 50px;
+	}
+}
 
 .story-travel-item2 {
 	background: -webkit-gradient(
@@ -217,7 +222,7 @@
 
 @media (max-width: 767px) {
 	.story-travel-list {
-		margin-top: 50px;
+		margin-top: 52px;
 		gap: 20px;
 	}
 	.story-travel-item {

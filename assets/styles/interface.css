@@ -42,9 +42,6 @@ button {
   border: none;
 }
 
-h1 {
-  letter-spacing: normal;
-}
 @media (min-width: 360px) {
   h1 {
     font-family: var(--font-family);
@@ -61,7 +58,7 @@ h1 {
     font-weight: 700;
     font-size: 96px;
     line-height: 109%;
-    letter-spacing: 0.02em;
+    letter-spacing: normal;
     color: var(--black);
   }
 }
@@ -74,7 +71,6 @@ h1 {
     line-height: 112%;
     letter-spacing: 0.02em;
     color: var(--black);
-    letter-spacing: normal;
   }
 }
 @media (min-width: 1024px) {
@@ -84,6 +80,7 @@ h1 {
     font-size: 59px;
     line-height: 124%;
     color: var(--black);
+    letter-spacing: normal;
   }
 }
 
@@ -104,7 +101,12 @@ h1 {
     font-size: 35px;
     line-height: 122%;
     color: var(--white);
+    letter-spacing: normal;
   }
+}
+
+.main-title {
+  text-align: center;
 }
 
 @media (min-width: 360px) {
@@ -281,5 +283,31 @@ a {
 @media (min-width: 1024px) {
   .block-title-container {
     gap: 30px;
+  }
+}
+
+.more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+@media (hover: hover) {
+  .more:hover {
+    padding: 7px 20px;
+    border-radius: 50px;
+    background-color: var(--green-400);
   }
 }

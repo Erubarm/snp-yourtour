@@ -100,16 +100,16 @@
 
 @media (min-width: 360px) {
 	.logo-inst {
-		width: 22px;
-		height: 22px;
+		/* width: 22px; */
+		/* height: 22px; */
 	}
 	.logo-fb {
-		width: 21px;
-		height: 21px;
+		/* width: 21px; */
+		/* height: 21px; */
 	}
 	.logo-vk {
-		width: 20px;
-		height: 20px;
+		/* width: 20px; */
+		/* height: 20px; */
 	}
 }
 
