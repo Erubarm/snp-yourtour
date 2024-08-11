@@ -63,9 +63,14 @@
 		),
 		url(../img/story-photo-1.jpg);
 }
-@media (max-width: 1024px) {
+@media (min-width: 360px) {
 	.story-travel-item1 {
 		gap: 50px;
+	}
+}
+@media (min-width: 1024px) {
+	.story-travel-item1 {
+		gap: 82px;
 	}
 }
 

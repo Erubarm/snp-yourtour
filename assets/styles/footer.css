@@ -1,123 +1,90 @@
-.footer {
-	background-color: #f4f0e9;
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-
-@media (max-width: 1024px) {
-	.footer {
-		padding: 21px 0 21px 0;
-	}
+footer {
+  background: var(--beige-200);
 }
 
 .footer__inner {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
+  padding: 21px 0 21px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 9px;
 }
-
-.social-list {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	gap: 25px;
+.footer__inner .social-text {
+  text-align: center;
+  color: var(--gray-300);
 }
-.social-list a p {
-	background-image: -webkit-gradient(
-		linear,
-		left top,
-		left bottom,
-		from(currentColor),
-		to(currentColor)
-	);
-	background-image: linear-gradient(currentColor, currentColor);
-	background-position: 0% 100%;
-	background-repeat: no-repeat;
-	background-size: 0% 2px;
-	-webkit-transition: background-size 0.3s;
-	transition: background-size 0.3s;
+.footer__inner ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 15px;
 }
-@media (hover: hover) {
-	.social-item__link:hover p {
-		background-size: 100% 2px;
-	}
-	.social-item__link:active p {
-		color: var(--orange-200);
-	}
+.footer__inner ul .social-item__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 5px;
 }
-
-.social-item__link {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
+.footer__inner ul .social-item__link p {
+  color: var(--black);
 }
-
-.social-text {
-	color: #a6a6a6;
+.footer__inner ul .social-item__link .social-item__logo {
+  position: relative;
 }
-
-.social-item__logo {
-	padding-right: 10px;
+.footer__inner ul .social-item__link .logo-inst {
+  width: 22px;
+  height: 22px;
 }
-
-.social-item__title {
-	color: #1b1f2b;
+.footer__inner ul .social-item__link .logo-inst::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url(/assets/icons/inst-m.svg);
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
 }
-
-@media (max-width: 767px) {
-	.footer__inner {
-		flex-direction: column;
-		gap: 8px;
-	}
-	.social-list {
-		gap: 15px;
-	}
+.footer__inner ul .social-item__link .logo-fb {
+  width: 21px;
+  height: 21px;
 }
-
-@media (min-width: 360px) {
-	.logo-inst {
-		/* width: 22px; */
-		/* height: 22px; */
-	}
-	.logo-fb {
-		/* width: 21px; */
-		/* height: 21px; */
-	}
-	.logo-vk {
-		/* width: 20px; */
-		/* height: 20px; */
-	}
+.footer__inner ul .social-item__link .logo-fb::after {
+  content: "";
+  width: 9px;
+  height: 17px;
+  background-image: url(/assets/icons/fb-m.svg);
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
 }
-
-@media (min-width: 1024px) {
-	.logo-fb,
-	.logo-inst,
-	.logo-vk {
-		width: 26px;
-		height: 26px;
-	}
+.footer__inner ul .social-item__link .logo-vk {
+  width: 20px;
+  height: 20px;
+}
+.footer__inner ul .social-item__link .logo-vk::after {
+  content: "";
+  width: 21px;
+  height: 13px;
+  background-image: url(/assets/icons/vk-m.svg);
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
 }

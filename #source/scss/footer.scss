@@ -1,0 +1,84 @@
+footer {
+	background: var(--beige-200);
+}
+
+.footer__inner {
+	padding: 21px 0 21px 0;
+
+	display: flex;
+	flex-direction: column;
+	gap: 9px;
+
+	.social-text {
+		text-align: center;
+		color: var(--gray-300);
+	}
+
+	ul {
+		display: flex;
+		flex-direction: row;
+		gap: 15px;
+
+		.social-item__link {
+			display: flex;
+			flex-direction: row;
+			gap: 5px;
+
+			p {
+				color: var(--black);
+			}
+
+			.social-item__logo {
+				position: relative;
+			}
+
+			.logo-inst {
+				width: 22px;
+				height: 22px;
+
+				&::after {
+					content: '';
+					width: 15px;
+					height: 15px;
+					background-image: url(/assets/icons/inst-m.svg);
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					position: absolute;
+				}
+			}
+
+			.logo-fb {
+				width: 21px;
+				height: 21px;
+
+				&::after {
+					content: '';
+					width: 9px;
+					height: 17px;
+					background-image: url(/assets/icons/fb-m.svg);
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					position: absolute;
+				}
+			}
+
+			.logo-vk {
+				width: 20px;
+				height: 20px;
+
+				&::after {
+					content: '';
+					width: 21px;
+					height: 13px;
+					background-image: url(/assets/icons/vk-m.svg);
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					position: absolute;
+				}
+			}
+		}
+	}
+}
