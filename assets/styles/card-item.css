@@ -159,8 +159,8 @@
   color: var(--white);
 }
 .card-list .card-item-1 {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(/assets/img/card-tour-photo-1.jpg);
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/assets/img/card-tour-photo-1.jpg);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(../img/card-tour-photo-1.jpg);
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(../img/card-tour-photo-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -171,8 +171,8 @@
   }
 }
 .card-list .card-item-2 {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(/assets/img/card-tour-photo-2.jpg);
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/assets/img/card-tour-photo-2.jpg);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(../img/card-tour-photo-2.jpg);
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(../img/card-tour-photo-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -183,8 +183,8 @@
   }
 }
 .card-list .card-item-3 {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(/assets/img/card-tour-photo-3.jpg);
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/assets/img/card-tour-photo-3.jpg);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(../img/card-tour-photo-3.jpg);
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(../img/card-tour-photo-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -195,8 +195,8 @@
   }
 }
 .card-list .card-item-4 {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(/assets/img/card-tour-photo-4.jpg);
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/assets/img/card-tour-photo-4.jpg);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(../img/card-tour-photo-4.jpg);
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(../img/card-tour-photo-4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -207,8 +207,8 @@
   }
 }
 .card-list .card-item-5 {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(/assets/img/card-tour-photo-5.jpg);
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/assets/img/card-tour-photo-5.jpg);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(../img/card-tour-photo-5.jpg);
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(../img/card-tour-photo-5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -219,8 +219,8 @@
   }
 }
 .card-list .card-item-6 {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(/assets/img/card-tour-photo-6.jpg);
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/assets/img/card-tour-photo-6.jpg);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(48.44%, rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 0, 0.5))), url(../img/card-tour-photo-6.jpg);
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(../img/card-tour-photo-6.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -57,7 +57,7 @@ footer {
 					content: '';
 					width: 15px;
 					height: 15px;
-					background-image: url(/assets/icons/inst-m.svg);
+					background-image: url(../icons/inst-m.svg);
 					top: 50%;
 					left: 50%;
 					transform: translate(-50%, -50%);
@@ -66,7 +66,7 @@ footer {
 					@media (min-width: 1024px) {
 						width: 14px;
 						height: 14px;
-						background-image: url(/assets/icons/inst.svg);
+						background-image: url(../icons/inst.svg);
 					}
 				}
 			}
@@ -79,7 +79,7 @@ footer {
 					content: '';
 					width: 9px;
 					height: 17px;
-					background-image: url(/assets/icons/fb-m.svg);
+					background-image: url(../icons/fb-m.svg);
 					top: 50%;
 					left: 50%;
 					transform: translate(-50%, -50%);
@@ -88,7 +88,7 @@ footer {
 					@media (min-width: 1024px) {
 						width: 8px;
 						height: 17px;
-						background-image: url(/assets/icons/fb.svg);
+						background-image: url(../icons/fb.svg);
 					}
 				}
 			}
@@ -101,7 +101,7 @@ footer {
 					content: '';
 					width: 21px;
 					height: 13px;
-					background-image: url(/assets/icons/vk-m.svg);
+					background-image: url(../icons/vk-m.svg);
 					top: 50%;
 					left: 50%;
 					transform: translate(-50%, -50%);
@@ -110,7 +110,7 @@ footer {
 					@media (min-width: 1024px) {
 						width: 20px;
 						height: 12px;
-						background-image: url(/assets/icons/vk.svg);
+						background-image: url(../icons/vk.svg);
 					}
 				}
 			}
