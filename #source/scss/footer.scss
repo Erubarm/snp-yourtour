@@ -126,3 +126,11 @@ footer {
 		}
 	}
 }
+
+@media (hover: hover) {
+	.social-items:hover {
+		.social-item__title {
+			text-decoration: underline;
+		}
+	}
+}
