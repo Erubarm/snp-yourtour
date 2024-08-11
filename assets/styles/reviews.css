@@ -97,9 +97,6 @@
     height: -moz-max-content;
     height: max-content;
   }
-  .reviews-item__up {
-    width: 277px;
-  }
   .reviews-item__up p {
     line-height: 23px;
   }

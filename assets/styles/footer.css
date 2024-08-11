@@ -12,6 +12,21 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 9px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media (min-width: 1024px) {
+  .footer__inner {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 30px 0 30px 0;
+  }
 }
 .footer__inner .social-text {
   text-align: center;
@@ -26,6 +41,14 @@ footer {
       -ms-flex-direction: row;
           flex-direction: row;
   gap: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media (min-width: 1024px) {
+  .footer__inner ul {
+    gap: 25px;
+  }
 }
 .footer__inner ul .social-item__link {
   display: -webkit-box;
@@ -36,6 +59,11 @@ footer {
       -ms-flex-direction: row;
           flex-direction: row;
   gap: 5px;
+}
+@media (min-width: 1024px) {
+  .footer__inner ul .social-item__link {
+    gap: 10px;
+  }
 }
 .footer__inner ul .social-item__link p {
   color: var(--black);
@@ -58,6 +86,13 @@ footer {
           transform: translate(-50%, -50%);
   position: absolute;
 }
+@media (min-width: 1024px) {
+  .footer__inner ul .social-item__link .logo-inst::after {
+    width: 14px;
+    height: 14px;
+    background-image: url(/assets/icons/inst.svg);
+  }
+}
 .footer__inner ul .social-item__link .logo-fb {
   width: 21px;
   height: 21px;
@@ -73,6 +108,13 @@ footer {
           transform: translate(-50%, -50%);
   position: absolute;
 }
+@media (min-width: 1024px) {
+  .footer__inner ul .social-item__link .logo-fb::after {
+    width: 8px;
+    height: 17px;
+    background-image: url(/assets/icons/fb.svg);
+  }
+}
 .footer__inner ul .social-item__link .logo-vk {
   width: 20px;
   height: 20px;
@@ -87,4 +129,19 @@ footer {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   position: absolute;
+}
+@media (min-width: 1024px) {
+  .footer__inner ul .social-item__link .logo-vk::after {
+    width: 20px;
+    height: 12px;
+    background-image: url(/assets/icons/vk.svg);
+  }
+}
+@media (min-width: 1024px) {
+  .footer__inner ul .social-item__link .logo-vk,
+  .footer__inner ul .social-item__link .logo-fb,
+  .footer__inner ul .social-item__link .logo-inst {
+    width: 26px;
+    height: 26px;
+  }
 }

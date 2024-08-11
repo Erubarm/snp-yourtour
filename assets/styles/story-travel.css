@@ -27,11 +27,14 @@
 	padding: 60px;
 	border-radius: 50px;
 	-webkit-transition: background-size 300ms ease;
-	transition: background-size 300ms ease;
+	transition: all 300ms ease;
 }
 @media (hover: hover) {
 	.story-travel-item:hover {
 		background-size: 150%;
+
+		padding-left: 40px;
+		padding-bottom: 53px;
 	}
 
 	.story-travel-item:hover .more {
@@ -206,13 +209,12 @@
 	}
 }
 
+.story-travel-item1,
+.story-travel-item2,
+.story-travel-item3 {
+	background-size: cover;
+}
 @media (max-width: 1023px) {
-	.story-travel-item1,
-	.story-travel-item2,
-	.story-travel-item3 {
-		background-size: cover;
-	}
-
 	.story-travel-item__down ul {
 		display: none;
 	}

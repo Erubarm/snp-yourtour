@@ -129,6 +129,11 @@
     border-radius: 50px;
     background-color: var(--green-400);
   }
+  .card-list .card-item .more:active {
+    background-color: #efa501;
+    border-radius: 50px;
+    padding: 7px 20px;
+  }
 }
 .card-list .card-item .card-item__up {
   display: -webkit-box;
