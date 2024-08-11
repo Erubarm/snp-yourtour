@@ -42,6 +42,9 @@ button {
   border: none;
 }
 
+h1 {
+  letter-spacing: normal;
+}
 @media (min-width: 360px) {
   h1 {
     font-family: var(--font-family);
@@ -71,6 +74,7 @@ button {
     line-height: 112%;
     letter-spacing: 0.02em;
     color: var(--black);
+    letter-spacing: normal;
   }
 }
 @media (min-width: 1024px) {

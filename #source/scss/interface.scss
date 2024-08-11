@@ -43,6 +43,7 @@ button {
 }
 
 h1 {
+	letter-spacing: normal;
 	@media (min-width: 360px) {
 		font-family: var(--font-family);
 		font-weight: 700;
@@ -70,6 +71,7 @@ h2 {
 		line-height: 112%;
 		letter-spacing: 0.02em;
 		color: var(--black);
+		letter-spacing: normal;
 	}
 
 	@media (min-width: 1024px) {
@@ -106,6 +108,7 @@ h3 {
 	font-size: 23px;
 	line-height: 122%;
 	color: var(--black);
+	// letter-spacing: normal;
 }
 
 @mixin p-normal {
@@ -114,6 +117,7 @@ h3 {
 	font-size: 20px;
 	line-height: 142%;
 	color: var(--black);
+	// letter-spacing: normal;
 }
 
 @mixin p-small {
@@ -123,6 +127,7 @@ h3 {
 	line-height: 142%;
 	letter-spacing: -0.01em;
 	color: var(--black);
+	// letter-spacing: normal;
 }
 
 @mixin m-p-big {
@@ -131,6 +136,7 @@ h3 {
 	font-size: 16px;
 	line-height: 22.72px;
 	color: var(--black);
+	// letter-spacing: normal;
 }
 
 @mixin m-p-normal {
@@ -139,6 +145,7 @@ h3 {
 	font-size: 16px;
 	line-height: 142%;
 	color: var(--black);
+	// letter-spacing: normal;
 }
 
 @mixin m-p-small {
@@ -148,6 +155,7 @@ h3 {
 	line-height: 142%;
 	letter-spacing: -0.01em;
 	color: var(--black);
+	// letter-spacing: normal;
 }
 
 .p-big {
