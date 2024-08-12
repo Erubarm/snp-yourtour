@@ -1,6 +1,15 @@
-.choose-tour__filter-focus {
+.choose-tour__filter__focus {
 	color: var(--orange-200);
 	border-bottom: 2px solid var(--orange-200);
+}
+
+@media (hover: hover) {
+	.choose-tour__filter {
+		cursor: pointer;
+	}
+	.choose-tour__filter__unfocus:hover {
+		border-bottom: 2px solid var(--black);
+	}
 }
 
 .block-title-container {
