@@ -150,4 +150,7 @@ footer {
   .social-items:hover .social-item__title {
     text-decoration: underline;
   }
+  .social-items:active .social-item__title {
+    color: var(--orange-200);
+  }
 }
