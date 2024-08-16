@@ -66,6 +66,7 @@
     border: 1px solid var(--beige-200);
     background: var(--beige-100);
     border-radius: 10px;
+    outline: none;
   }
   .form__inner-row label span {
     height: 23px;
