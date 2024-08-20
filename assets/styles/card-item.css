@@ -6,6 +6,7 @@
 @media (hover: hover) {
   .choose-tour__filter {
     cursor: pointer;
+    border-bottom: 2px solid transparent;
   }
   .choose-tour__filter__unfocus:hover {
     border-bottom: 2px solid var(--black);
