@@ -52,7 +52,22 @@ button {
     color: var(--black);
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 420px) {
+  h1 {
+    font-size: 34px;
+  }
+}
+@media (min-width: 600px) {
+  h1 {
+    font-size: 56px;
+  }
+}
+@media (min-width: 634px) {
+  h1 {
+    font-size: 72px;
+  }
+}
+@media (min-width: 767px) {
   h1 {
     font-family: var(--font-family);
     font-weight: 700;
@@ -73,7 +88,7 @@ button {
     color: var(--black);
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 767px) {
   h2 {
     font-family: var(--font-family);
     font-weight: 700;
@@ -140,7 +155,7 @@ button {
     color: var(--black);
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 767px) {
   .p-normal,
   .story-travel-item__up-descr ul,
   .inner-item__input,
@@ -163,7 +178,7 @@ button {
     color: var(--black);
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 767px) {
   .p-small {
     font-family: var(--font-family);
     font-weight: 400;
@@ -189,17 +204,17 @@ button {
   margin: 0 auto;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 360px) {
   .container {
     width: 100%;
-    padding: 0 57px;
+    padding: 0 21px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 767px) {
   .container {
     max-width: 918px;
     width: 100%;
-    padding: 0 0;
+    padding: 0 53px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -208,16 +223,15 @@ button {
     max-width: 442px;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 0;
+  }
+}
+@media (min-width: 1200px) {
   .container {
     max-width: 1170px;
     width: 100%;
-  }
-}
-@media (max-width: 768px) {
-  .container {
-    width: 100%;
-    padding: 0 22px;
   }
 }
 .title-discription,

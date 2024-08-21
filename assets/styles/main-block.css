@@ -1,125 +1,119 @@
 .up__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 50px;
-  margin-top: 90px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	gap: 50px;
+	margin-top: 90px;
 }
 
 @media (max-width: 600px) {
-  .up__container {
-    gap: 40px;
-  }
+	.up__container {
+		gap: 40px;
+	}
 }
 
-@media (max-width: 634px) {
-  .up__title {
-    font-size: 72px;
-  }
-}
-
-@media (max-width: 600px) {
-  .up__title {
-    font-size: 56px;
-  }
-  .title-discription {
-    font-size: 16px;
-  }
-}
-
-@media ( max-width: 420px) {
-  .up__title {
-    font-size: 34px;
-  }
+@media (min-width: 600px) {
+	.title-discription {
+		font-size: 16px;
+	}
 }
 
 .block-title-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 .up__title {
-  color: white;
-  text-align: center;
+	color: white;
+	text-align: center;
 }
 
 .title-discription {
-  text-align: center;
-  width: 562px;
-  margin: 0 auto;
+	text-align: center;
+	width: 562px;
+	margin: 0 auto;
 }
 
 .up {
-  color: white;
-  text-align: center;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.4)),
-      to(rgba(0, 0, 0, 0))
-    ),
-    -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))),
-    url(../img/header-img.jpg), lightgray;
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.4) 0%,
-      rgba(0, 0, 0, 0) 100%
-    ),
-    linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%),
-    url(../img/header-img.jpg), lightgray;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+	color: white;
+	text-align: center;
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(0, 0, 0, 0.4)),
+			to(rgba(0, 0, 0, 0))
+		),
+		-webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))),
+		url(../img/header-img.jpg), lightgray;
+	background: linear-gradient(
+			180deg,
+			rgba(0, 0, 0, 0.4) 0%,
+			rgba(0, 0, 0, 0) 100%
+		),
+		linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%),
+		url(../img/header-img.jpg), lightgray;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
+@media (min-width: 360px) {
+	.up {
+		min-height: 488px;
+	}
+}
+@media (min-width: 767px) {
+	.up {
+		min-height: 831px;
+	}
+}
 @media (max-width: 600px) {
-  
-  .title-discription {
-    width: fit-content;
-  }
+	.title-discription {
+		width: fit-content;
+	}
 }
 .up__btn {
-  padding-bottom: 119px;
+	padding-bottom: 119px;
 }
 
 .up__link {
-  color: #1b1f2b;
-  background-color: #fff;
-  padding: 5px 20px;
-  border-radius: 10px;
-  -webkit-transition: 300ms ease;
-  transition: 300ms ease;
+	color: #1b1f2b;
+	background-color: #fff;
+	padding: 5px 20px;
+	border-radius: 10px;
+	-webkit-transition: 300ms ease;
+	transition: 300ms ease;
 }
 @media (hover: hover) {
-  .up__link:hover {
-    background: #efa501;
-    color: white;
-  }
-  .up__link:active {
-    background-color: #f8e6be;
-    color: #1b1f2b;
-  }
+	.up__link:hover {
+		background: #efa501;
+		color: white;
+	}
+	.up__link:active {
+		background-color: #f8e6be;
+		color: #1b1f2b;
+	}
 }
