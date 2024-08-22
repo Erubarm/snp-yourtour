@@ -130,8 +130,6 @@
 @media (hover: hover) {
   .card-list .card-item:hover {
     background-size: 120%;
-    padding-left: 30px;
-    padding-bottom: 43px;
   }
   .card-list .card-item:hover .more {
     padding: 7px 20px;

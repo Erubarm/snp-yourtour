@@ -15,6 +15,7 @@
 	position: fixed;
 	backdrop-filter: blur(54px);
 	background: rgba(243, 239, 232, 0.6);
+	z-index: 1;
 }
 .header-fix a {
 	color: black;

@@ -32,21 +32,14 @@
 @media (hover: hover) {
 	.story-travel-item:hover {
 		background-size: 220%;
-
-		padding-left: 40px;
-		padding-bottom: 53px;
 	}
 
 	.story-travel-item:hover .more {
 		background: #286562;
-		border-radius: 50px;
-		padding: 7px 20px;
 	}
 
 	.story-travel-item .more:active {
 		background-color: #efa501;
-		border-radius: 50px;
-		padding: 7px 20px;
 	}
 }
 
