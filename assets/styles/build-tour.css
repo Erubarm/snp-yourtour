@@ -75,7 +75,9 @@
     height: 43px;
   }
   .form__inner-row label textarea {
-    height: 132px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 132px;
   }
   .form__inner-row label select {
     -webkit-appearance: none;
@@ -214,7 +216,7 @@
   display: block;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 767px) {
   .form-create-tour {
     border-radius: 50px;
     padding: 60px;
@@ -240,7 +242,7 @@
     height: 68px;
   }
   .form__inner-row label textarea {
-    height: 152px;
+    min-height: 152px;
   }
   .form__inner-row .checkbox-container {
     height: 26px;
@@ -295,7 +297,7 @@
     width: 235px;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1200px) {
   .form-create-tour {
     border-radius: 50px;
     padding: 70px;

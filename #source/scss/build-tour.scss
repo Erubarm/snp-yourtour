@@ -69,7 +69,9 @@
 			}
 
 			textarea {
-				height: 132px;
+				max-width: 100%;
+				min-width: 100%;
+				min-height: 132px;
 			}
 
 			select {
@@ -214,7 +216,7 @@
 	}
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 767px) {
 	.form-create-tour {
 		border-radius: 50px;
 		padding: 60px;
@@ -240,7 +242,7 @@
 			}
 
 			textarea {
-				height: 152px;
+				min-height: 152px;
 			}
 		}
 		.checkbox-container {
@@ -294,7 +296,7 @@
 	}
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1200px) {
 	.form-create-tour {
 		border-radius: 50px;
 		padding: 70px;
