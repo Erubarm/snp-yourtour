@@ -12,11 +12,19 @@
 @media (hover: hover) {
 	form {
 		label {
+			select,
+			input,
+			textarea {
+				transition: all 0.3s ease;
+			}
+		}
+	}
+	form {
+		label {
 			select:hover,
 			input:hover,
 			textarea:hover {
 				background: var(--beige-200);
-				transition: all 0.3s ease;
 			}
 			select:hover {
 				background-image: url(../icons/ic-dropdown.svg);
@@ -370,11 +378,19 @@
 	}
 }
 
+.form__inner-row__buttons {
+	input[type='submit'] {
+		transition: all 0.3s ease;
+	}
+	input[type='reset'] {
+		transition: all 0.3s ease;
+	}
+}
+
 @media (hover: hover) {
 	.form__inner-row__buttons {
 		input[type='submit']:hover {
 			background-color: var(--green-300);
-			transition: all 0.3s ease;
 		}
 		input[type='submit']:active {
 			background-color: var(--green-200);
@@ -382,7 +398,6 @@
 
 		input[type='reset']:hover {
 			background-color: var(--gray-100);
-			transition: all 0.3s ease;
 		}
 		input[type='reset']:active {
 			background-color: var(--gray-200);

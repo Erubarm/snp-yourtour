@@ -16,12 +16,16 @@
 }
 
 @media (hover: hover) {
+  form label select,
+  form label input,
+  form label textarea {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
   form label select:hover,
   form label input:hover,
   form label textarea:hover {
     background: var(--beige-200);
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
   }
   form label select:hover {
     background-image: url(../icons/ic-dropdown.svg);
@@ -372,19 +376,24 @@
     width: 235px;
   }
 }
+.form__inner-row__buttons input[type=submit] {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.form__inner-row__buttons input[type=reset] {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
 @media (hover: hover) {
   .form__inner-row__buttons input[type=submit]:hover {
     background-color: var(--green-300);
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
   }
   .form__inner-row__buttons input[type=submit]:active {
     background-color: var(--green-200);
   }
   .form__inner-row__buttons input[type=reset]:hover {
     background-color: var(--gray-100);
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
   }
   .form__inner-row__buttons input[type=reset]:active {
     background-color: var(--gray-200);
