@@ -16,6 +16,10 @@
 	backdrop-filter: blur(54px);
 	background: rgba(243, 239, 232, 0.6);
 	z-index: 1;
+
+	.menu__list-link::after {
+		background-color: var(--black);
+	}
 }
 .header-fix a {
 	color: black;
@@ -37,25 +41,27 @@
 }
 
 .menu__list-link {
-	background-image: -webkit-gradient(
-		linear,
-		left top,
-		left bottom,
-		from(currentColor),
-		to(currentColor)
-	);
-	background-image: linear-gradient(currentColor, currentColor);
-	background-position: 0% 100%;
-	background-repeat: no-repeat;
-	background-size: 0% 2px;
-	-webkit-transition: background-size 0.3s;
-	transition: background-size 0.3s;
-	padding-bottom: 6px;
+	position: relative;
+	overflow: hidden;
+}
+
+.menu__list-link::after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	width: 0;
+	height: 2px;
+	background-color: var(--white);
+	transform: translateX(-50%);
+	transition: all 0.3s ease;
 }
 
 @media (hover: hover) {
-	.menu__list-link:hover {
-		background-size: 100% 2px;
+	/* todo сделать подчеркивание */
+
+	a:hover::after {
+		width: 100%;
 	}
 }
 .menu__list {

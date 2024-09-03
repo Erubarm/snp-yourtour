@@ -176,23 +176,24 @@
 	gap: 35px;
 }
 .story-travel-item__down ul li {
-	background-image: -webkit-gradient(
-		linear,
-		left top,
-		left bottom,
-		from(currentColor),
-		to(currentColor)
-	);
-	background-image: linear-gradient(currentColor, currentColor);
-	background-position: 0% 100%;
-	background-repeat: no-repeat;
-	background-size: 0% 2px;
-	-webkit-transition: background-size 0.3s;
-	transition: background-size 0.3s;
+	position: relative;
+	overflow: hidden;
+}
+
+.story-travel-item__down ul li::after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	width: 0;
+	height: 2px;
+	background-color: currentColor;
+	transform: translateX(-50%);
+	transition: all 0.3s ease;
 }
 @media (hover: hover) {
-	.story-travel-item__down ul li:hover {
-		background-size: 100% 2px;
+	.story-travel-item__down ul li:hover::after {
+		width: 100%;
 	}
 	.story-travel-item__down ul li:active {
 		color: #efa501;

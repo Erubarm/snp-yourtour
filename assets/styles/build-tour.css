@@ -398,10 +398,25 @@
   .form__inner-row__buttons input[type=reset]:active {
     background-color: var(--gray-200);
   }
-  .checkbox-container a:hover {
-    text-decoration: underline;
-    -webkit-text-decoration-skip-ink: none;
-            text-decoration-skip-ink: none;
+  .checkbox-container a {
+    position: relative;
+    overflow: hidden;
+  }
+  .checkbox-container a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: currentColor;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .checkbox-container a:hover::after {
+    width: 100%;
   }
   .checkbox-container p a:active {
     color: var(--green-400);

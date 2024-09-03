@@ -146,9 +146,28 @@ footer {
   }
 }
 
+.social-item__title {
+  position: relative;
+  overflow: hidden;
+}
+
+.social-item__title::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
 @media (hover: hover) {
-  .social-items:hover .social-item__title {
-    text-decoration: underline;
+  .social-items:hover .social-item__title::after {
+    width: 100%;
   }
   .social-items:active .social-item__title {
     color: var(--orange-200);

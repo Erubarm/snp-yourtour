@@ -37,27 +37,26 @@
 }
 
 .callback-email {
-	background-image: -webkit-gradient(
-		linear,
-		left top,
-		left bottom,
-		from(currentColor),
-		to(currentColor)
-	);
-	background-image: linear-gradient(currentColor, currentColor);
-	background-position: 0% 100%;
-	background-repeat: no-repeat;
-	background-size: 0% 2px;
-	padding-bottom: 6px;
-	color: #1b1f2b;
-	-webkit-transition: 300ms ease;
-	transition: 300ms ease;
+	position: relative;
+	overflow: hidden;
+	color: var(--black);
+}
+
+.callback-email::after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	width: 0;
+	height: 2px;
+	background-color: currentColor;
+	transform: translateX(-50%);
+	transition: all 0.3s ease;
 }
 
 @media (hover: hover) {
-	.callback-email:hover {
-		background-size: 100% 2px;
-		cursor: pointer;
+	.callback-email:hover::after {
+		width: 100%;
 	}
 	.callback-email:active {
 		color: #286562;
