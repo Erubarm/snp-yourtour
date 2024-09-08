@@ -14,7 +14,7 @@
 	justify-content: center;
 	gap: 30px;
 	margin-bottom: 135px;
-	margin-top: 135px;
+	margin-top: 133px;
 }
 
 .callback-text {
@@ -70,7 +70,7 @@
 
 @media (max-width: 767px) {
 	.callback {
-		margin-top: 75px;
+		margin-top: 77px;
 		margin-bottom: 75px;
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;

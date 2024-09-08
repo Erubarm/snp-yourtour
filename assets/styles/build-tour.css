@@ -194,7 +194,7 @@
     gap: 10px;
   }
   .form__inner-row__radio {
-    gap: 8px;
+    gap: 9px;
   }
   .form__inner-row__radio span,
   .form__inner-row__radio p {
@@ -274,7 +274,7 @@
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    gap: 15px;
+    gap: 13px;
   }
   .form__inner-row__radio .inner-row__radio-row {
     gap: 31px;
@@ -397,6 +397,9 @@
   }
   .form__inner-row__buttons input[type=reset]:active {
     background-color: var(--gray-200);
+  }
+  .checkbox-container p {
+    letter-spacing: normal;
   }
   .checkbox-container a {
     position: relative;

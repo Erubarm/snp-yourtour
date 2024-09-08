@@ -188,7 +188,7 @@
 	}
 
 	.form__inner-row__radio {
-		gap: 8px;
+		gap: 9px;
 
 		span,
 		p {
@@ -274,7 +274,7 @@
 		display: flex;
 		flex-direction: column;
 		width: fit-content;
-		gap: 15px;
+		gap: 13px;
 
 		.inner-row__radio-row {
 			gap: 31px;
@@ -405,6 +405,10 @@
 	}
 
 	.checkbox-container {
+		p {
+			letter-spacing: normal;
+		}
+
 		a {
 			position: relative;
 			overflow: hidden;

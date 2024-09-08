@@ -1,0 +1,120 @@
+.block-title-container__story-travel {
+	// для сопоставления PixelPerfect
+	margin-top: 78px;
+}
+.story-travel-list {
+	margin-top: 50px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+	@media (min-width: 767px) {
+		margin-top: 100px;
+		gap: 50px;
+	}
+
+	.story-travel-item {
+		background-color: aqua;
+		border-radius: 20px;
+		height: 455px;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		@media (min-width: 767px) {
+			height: 567px;
+			border-radius: 50px;
+		}
+
+		.story-travel-item__up {
+			padding: 30px 25px 0 30px;
+
+			@media (min-width: 767px) {
+				padding: 60px 0 0 60px;
+
+				max-width: 618px;
+				width: 100%;
+			}
+
+			h3 {
+				width: min-content;
+
+				@media (min-width: 767px) {
+					width: 100%;
+				}
+			}
+
+			.story-travel-item__up-descr {
+				margin-top: 21px;
+
+				@media (min-width: 767px) {
+					margin-top: 37px;
+				}
+
+				p,
+				ul {
+					color: var(--white);
+				}
+
+				ul {
+					margin-top: 25px;
+					padding-left: 11px;
+					li {
+						position: relative;
+						padding-left: 13px;
+
+						@media (min-width: 767px) {
+							padding-left: 19px;
+						}
+					}
+					li::before {
+						content: '';
+						position: absolute;
+						top: 10px;
+						left: 0;
+						width: 3px;
+						height: 3px;
+						background-color: var(--white);
+						border-radius: 50%;
+
+						@media (min-width: 767px) {
+							top: 12px;
+							width: 4px;
+							height: 4px;
+						}
+					}
+				}
+			}
+		}
+
+		.story-travel-item__down {
+			@media (min-width: 767px) {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+			}
+
+			ul {
+				display: none;
+
+				@media (min-width: 767px) {
+					display: flex;
+					flex-direction: row;
+					gap: 35px;
+
+					padding: 0 60px 60px 0;
+				}
+			}
+
+			.more {
+				padding: 0 0 30px 30px;
+
+				@media (min-width: 767px) {
+					padding: 0 0 60px 60px;
+				}
+			}
+		}
+	}
+}
