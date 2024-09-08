@@ -151,6 +151,8 @@
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
+}
+@media (min-width: 767px) and (hover: hover) {
   .story-travel-list .story-travel-item .story-travel-item__down ul li a:hover::after {
     width: 100%;
   }

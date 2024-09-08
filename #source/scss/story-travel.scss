@@ -121,11 +121,14 @@
 							transition: all 0.3s ease;
 							transform: translateX(-50%);
 						}
-						a:hover::after {
-							width: 100%;
-						}
-						a:active {
-							color: var(--orange-200);
+
+						@media (hover: hover) {
+							a:hover::after {
+								width: 100%;
+							}
+							a:active {
+								color: var(--orange-200);
+							}
 						}
 					}
 				}

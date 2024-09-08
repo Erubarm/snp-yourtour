@@ -133,7 +133,7 @@ button {
     color: var(--black);
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 767px) {
   .p-big {
     font-family: var(--font-family);
     font-weight: 700;

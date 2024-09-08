@@ -177,7 +177,7 @@ h3 {
 	@media (min-width: 360px) {
 		@include m-p-big();
 	}
-	@media (min-width: 1024px) {
+	@media (min-width: 767px) {
 		@include p-big();
 	}
 }

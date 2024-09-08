@@ -17,6 +17,17 @@
 	margin-top: 133px;
 }
 
+@media (min-width: 768px) {
+	.callback {
+		justify-content: normal;
+
+		max-width: 771px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 .callback-text {
 	display: -webkit-box;
 	display: -ms-flexbox;
