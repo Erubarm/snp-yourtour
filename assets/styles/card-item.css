@@ -232,11 +232,12 @@
   border-radius: inherit;
 }
 
-.card-item:hover .card-item__background {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+@media (hover: hover) {
+  .card-item:hover .card-item__background {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
 }
-
 .card-item::before {
   content: "";
   position: absolute;

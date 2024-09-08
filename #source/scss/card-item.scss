@@ -198,9 +198,11 @@
 	border-radius: inherit;
 }
 
-.card-item:hover {
-	.card-item__background {
-		transform: scale(1.2);
+@media (hover: hover) {
+	.card-item:hover {
+		.card-item__background {
+			transform: scale(1.2);
+		}
 	}
 }
 

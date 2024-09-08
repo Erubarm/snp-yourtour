@@ -185,11 +185,12 @@
   border-radius: inherit;
 }
 
-.story-travel-item:hover img.story-travel-item__background {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+@media (hover: hover) {
+  .story-travel-item:hover img.story-travel-item__background {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
 }
-
 .story-travel-item::before {
   content: "";
   position: absolute;
@@ -204,9 +205,14 @@
   pointer-events: none;
 }
 
-.story-travel-item:hover .story-travel-item__down .more {
-  margin: 0 0 53px 40px;
-  padding: 7px 20px;
-  border-radius: 50px;
-  background-color: var(--green-400);
+@media (hover: hover) {
+  .story-travel-item:hover .story-travel-item__down .more {
+    margin: 0 0 53px 40px;
+    padding: 7px 20px;
+    border-radius: 50px;
+    background-color: var(--green-400);
+  }
+  .story-travel-item:hover .story-travel-item__down .more:active {
+    background-color: var(--orange-200);
+  }
 }
