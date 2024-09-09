@@ -19,8 +19,8 @@
   form label select,
   form label input,
   form label textarea {
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    -webkit-transition: background 0.3s ease;
+    transition: background 0.3s ease;
   }
   form label select:hover,
   form label input:hover,
