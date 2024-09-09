@@ -72,7 +72,6 @@
     border-radius: 10px;
     outline: none;
     width: 100%;
-    display: block;
   }
   .form__inner-row label span {
     height: 23px;
