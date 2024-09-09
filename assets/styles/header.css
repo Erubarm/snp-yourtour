@@ -54,12 +54,10 @@
 	height: 2px;
 	background-color: var(--white);
 	transform: translateX(-50%);
-	transition: all 0.3s ease;
+	transition: width 0.3s ease;
 }
 
 @media (hover: hover) {
-	/* todo сделать подчеркивание */
-
 	a:hover::after {
 		width: 100%;
 	}

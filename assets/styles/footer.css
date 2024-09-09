@@ -161,8 +161,8 @@ footer {
   background-color: currentColor;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: width 0.3s ease;
+  transition: width 0.3s ease;
 }
 
 @media (hover: hover) {

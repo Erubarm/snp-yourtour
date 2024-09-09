@@ -90,8 +90,8 @@
 	background-color: #fff;
 	padding: 5px 20px;
 	border-radius: 10px;
-	-webkit-transition: 300ms ease;
-	transition: 300ms ease;
+	-webkit-transition: background 0.3s ease, color 0.3s ease;
+	transition: background 0.3s ease, color 0.3s ease;
 }
 @media (hover: hover) {
 	.up__link:hover {

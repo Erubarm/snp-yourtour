@@ -104,8 +104,6 @@
     background-color: var(--white);
     border: 2px solid var(--black);
     border-radius: 50%;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
   }
   .form__inner-row label .custom-age-radio::after {
     content: "";
@@ -378,12 +376,12 @@
   }
 }
 .form__inner-row__buttons input[type=submit] {
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 .form__inner-row__buttons input[type=reset] {
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 @media (hover: hover) {
@@ -416,8 +414,8 @@
     background-color: currentColor;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    -webkit-transition: width 0.3s ease;
+    transition: width 0.3s ease;
   }
   .checkbox-container a:hover::after {
     width: 100%;

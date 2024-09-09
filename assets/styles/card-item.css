@@ -38,8 +38,8 @@
     background-color: currentColor;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    -webkit-transition: width 0.3s ease;
+    transition: width 0.3s ease;
   }
   .choose-tour__filter__unfocus:hover::after {
     width: 100%;
@@ -146,8 +146,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 @media (min-width: 1024px) {
   .card-list .card-item {
@@ -171,8 +169,6 @@
           flex-direction: column;
   gap: 15px;
   z-index: 1;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
   padding: 25px 25px 0 25px;
 }
 @media (min-width: 1024px) {
@@ -186,8 +182,8 @@
 .card-list .card-item .card-item__down {
   padding: 0 0 25px 25px;
   z-index: 1;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: padding 0.3s ease;
+  transition: padding 0.3s ease;
 }
 @media (min-width: 1024px) {
   .card-list .card-item .card-item__down {
@@ -226,8 +222,10 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
   z-index: 0;
   border-radius: inherit;
 }

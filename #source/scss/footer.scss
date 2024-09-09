@@ -140,7 +140,7 @@ footer {
 	height: 2px;
 	background-color: currentColor;
 	transform: translateX(-50%);
-	transition: all 0.3s ease;
+	transition: width 0.3s ease;
 }
 
 @media (hover: hover) {
