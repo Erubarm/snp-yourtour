@@ -237,7 +237,10 @@
 							<div class="form__inner-row">
 								<label>
 									<span>Email</span>
-									<input type="email" placeholder="example@mail.com" class="p-normal" />
+									<input type="email" placeholder="example@mail.com" class="p-normal"
+									required
+									/>
+
 								</label>
 	
 								<label>
@@ -245,6 +248,9 @@
 									<input
 										type="tel"
 										placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _"
+										minlength='17'
+										maxlength='17'
+										required
 										class="p-normal"
 									/>
 								</label>

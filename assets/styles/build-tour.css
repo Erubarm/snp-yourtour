@@ -71,6 +71,7 @@
     background: var(--beige-100);
     border-radius: 10px;
     outline: none;
+    width: 100%;
   }
   .form__inner-row label span {
     height: 23px;
