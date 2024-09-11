@@ -61,6 +61,10 @@
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
+
+	img {
+		border-radius: 100px;
+	}
 }
 
 .reviews-item__down-text {

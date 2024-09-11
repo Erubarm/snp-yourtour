@@ -57,6 +57,9 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+.reviews-item__down img {
+  border-radius: 100px;
+}
 
 .reviews-item__down-text {
   display: -webkit-box;
