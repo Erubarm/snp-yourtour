@@ -71,7 +71,7 @@
 		min-height: 488px;
 	}
 }
-@media (min-width: 767px) {
+@media (min-width: 768px) {
 	.up {
 		min-height: 831px;
 	}

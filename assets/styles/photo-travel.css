@@ -24,14 +24,15 @@
 	gap: 30px;
 }
 
-@media (max-width: 1024px) {
-	.photo-travel-items {
-		gap: 20px;
+@media (min-width: 360px) {
+	.travel-photo-2,
+	.travel-photo-3,
+	.travel-photo-6,
+	.travel-photo-7,
+	.travel-photo-12,
+	.travel-photo-13 {
+		display: none;
 	}
-}
-
-.photo-travel-items img {
-	border-radius: 50px;
 }
 
 .photo-travel-item {
@@ -51,14 +52,11 @@
 }
 
 @media (min-width: 360px) {
-	.travel-photo-2,
-	.travel-photo-7,
-	.travel-photo-13 {
-		display: none;
-	}
 	.photo-travel-list {
 		width: 100%;
-		padding: 0 20px;
+		padding: 0 21px;
+		margin-top: 50px;
+		gap: 18px;
 	}
 	.photo-travel-item {
 		width: 100%;
@@ -72,31 +70,12 @@
 		-o-object-fit: cover;
 		object-fit: cover;
 	}
-}
 
-@media (min-width: 1920px) {
-	.travel-photo-2,
-	.travel-photo-7,
-	.travel-photo-13 {
-		display: block;
-	}
-}
-
-@media (max-width: 767px) {
-	.photo-travel-list {
-		margin-top: 50px;
-		gap: 18px;
-	}
 	.photo-travel-item,
 	.photo-travel-item__special {
 		border-radius: 20px;
 	}
-}
 
-@media (max-width: 600px) {
-	.photo-travel-list img {
-		border-radius: 20px;
-	}
 	.photo-travel-items {
 		gap: 18px;
 	}
@@ -117,15 +96,63 @@
 		-o-object-fit: cover;
 		object-fit: cover;
 	}
-	.travel-photo-3,
-	.travel-photo-6,
-	.travel-photo-12 {
-		display: none;
+
+	.photo-travel-items__line2,
+	.photo-travel-items__line3 {
+		gap: 10px;
 	}
 }
 
-@media (max-width: 1023px) {
+@media (min-width: 768px) {
+	.travel-photo-3,
+	.travel-photo-6,
+	.travel-photo-12 {
+		display: block;
+	}
+	.photo-travel-items__line1,
+	.photo-travel-items__line2,
 	.photo-travel-items__line3 {
-		gap: 10px;
+		gap: 20px;
+	}
+
+	.photo-travel-items__line1 {
+		.photo-travel-item {
+			height: 300px;
+		}
+	}
+
+	.photo-travel-items__line2,
+	.photo-travel-items__line3 {
+		.photo-travel-item,
+		.photo-travel-item__special {
+			height: 301px;
+		}
+	}
+
+	.photo-travel-items img {
+		border-radius: 50px;
+	}
+
+	.photo-travel-list {
+		padding: 0 20px;
+		margin-top: 100px;
+		gap: 30px;
+	}
+}
+
+@media (min-width: 1025px) {
+	.travel-photo-2,
+	.travel-photo-7,
+	.travel-photo-13 {
+		display: block;
+	}
+	.photo-travel-items__line1,
+	.photo-travel-items__line2,
+	.photo-travel-items__line3 {
+		gap: 30px;
+	}
+
+	.photo-travel-list {
+		padding: 0 30px;
 	}
 }
