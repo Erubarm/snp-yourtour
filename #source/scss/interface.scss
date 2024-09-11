@@ -50,7 +50,7 @@ h1 {
 		line-height: 112%;
 		letter-spacing: 0.02em;
 
-		color: var(--black);
+		color: var(--white);
 	}
 
 	@media (min-width: 420px) {
@@ -68,8 +68,7 @@ h1 {
 		font-weight: 700;
 		font-size: 96px;
 		line-height: 109%;
-		letter-spacing: normal;
-		color: var(--black);
+		letter-spacing: 1.92px;
 	}
 }
 
@@ -231,9 +230,6 @@ h3 {
 		width: 100%;
 		padding: 0 53px;
 		align-items: center;
-	}
-	.title-discription {
-		max-width: 442px;
 	}
 }
 

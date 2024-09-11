@@ -73,6 +73,10 @@
     outline: none;
     width: 100%;
   }
+  .form__inner-row label input[type=date] {
+    text-transform: uppercase;
+    color: var(--gray-300);
+  }
   .form__inner-row label span {
     height: 23px;
   }

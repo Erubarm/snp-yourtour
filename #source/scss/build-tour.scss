@@ -68,6 +68,10 @@
 				outline: none;
 				width: 100%;
 			}
+			input[type='date'] {
+				text-transform: uppercase;
+				color: var(--gray-300);
+			}
 
 			span {
 				height: 23px;
