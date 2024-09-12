@@ -40,10 +40,15 @@
 			}
 
 			h3 {
-				width: min-content;
-
 				@media (min-width: 768px) {
 					width: 100%;
+				}
+			}
+			@media (min-width: 480px) {
+				h3 {
+					br {
+						display: none;
+					}
 				}
 			}
 

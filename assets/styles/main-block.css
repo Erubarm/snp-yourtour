@@ -10,10 +10,20 @@
 	-ms-flex-align: center;
 	align-items: center;
 	gap: 50px;
-	margin-top: 86px;
 
 	h1 {
 		text-align: center;
+	}
+}
+
+@media (min-width: 360px) {
+	.up__container {
+		margin-top: 86px;
+	}
+}
+@media (min-width: 768px) {
+	.up__container {
+		margin-top: 93px;
 	}
 }
 

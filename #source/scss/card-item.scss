@@ -134,7 +134,12 @@
 			@media (min-width: 768px) {
 				padding: 50px 50px 0 50px;
 			}
-			@media (min-width: 1920px) {
+			@media (max-width: 1024px) {
+				h3 {
+					br {
+						display: none;
+					}
+				}
 			}
 
 			p {
@@ -191,13 +196,17 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	object-fit: fill;
+	object-fit: cover;
 	transition: transform 0.3s ease;
 	z-index: 0;
 	border-radius: inherit;
+}
 
-	@media (min-width: 768px) {
-		object-fit: cover;
+@media (400px <= width <= 767px) {
+	.card-item:first-child {
+		.card-item__background {
+			object-position: bottom;
+		}
 	}
 }
 
