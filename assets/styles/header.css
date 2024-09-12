@@ -34,21 +34,21 @@
 	justify-content: space-between;
 	-webkit-box-align: start;
 	-ms-flex-align: start;
-	align-items: start;
+	align-items: center;
 	color: #000;
 }
 
 @media (min-width: 360px) {
 	.header__inner {
-		padding-top: 33px;
-		padding-bottom: 33px;
+		padding-top: 30px;
+		padding-bottom: 30px;
 	}
 }
 
 @media (min-width: 768px) {
 	.header__inner {
-		padding-top: 30px;
-		padding-bottom: 30px;
+		padding-top: 29px;
+		padding-bottom: 29px;
 	}
 }
 
@@ -102,10 +102,16 @@
 	color: white;
 }
 
+@media (768px <= width <= 1024px) {
+	.telephone {
+		margin: 0 5px;
+	}
+}
+
 @media (min-width: 360px) {
 	.logo__image {
-		width: 133px;
-		height: 22px;
+		width: 132px;
+		height: 26px;
 	}
 	.telephone {
 		display: flex;
@@ -114,7 +120,7 @@
 
 @media (min-width: 768px) {
 	.logo__image {
-		width: 182px;
-		height: 30px;
+		width: 192px;
+		height: 32px;
 	}
 }

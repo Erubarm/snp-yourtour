@@ -18,7 +18,7 @@
 
 @media (min-width: 360px) {
 	.up__container {
-		margin-top: 86px;
+		margin-top: 88px;
 	}
 }
 @media (min-width: 768px) {
@@ -53,18 +53,25 @@
 }
 
 @media (min-width: 360px) {
-	.title-discription {
-		max-width: 310px;
+	.title-discription__drop2,
+	.title-discription__drop3 {
+		display: none;
 	}
 }
 @media (min-width: 768px) {
-	.title-discription {
-		max-width: 442px;
+	.title-discription__drop1 {
+		display: none;
+	}
+	.title-discription__drop2 {
+		display: block;
 	}
 }
 @media (min-width: 1025px) {
-	.title-discription {
-		max-width: 562px;
+	.title-discription__drop2 {
+		display: none;
+	}
+	.title-discription__drop3 {
+		display: block;
 	}
 }
 

@@ -254,7 +254,6 @@ a {
 .secondary-title {
   color: #a6a6a6;
   text-align: center;
-  width: 418px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -266,15 +265,6 @@ a {
   align-items: center;
 }
 
-.secondary-title__special {
-  width: 408px;
-}
-
-@media (max-width: 420px) {
-  .secondary-title {
-    width: 318px;
-  }
-}
 .block-title-container {
   display: -webkit-box;
   display: -ms-flexbox;
