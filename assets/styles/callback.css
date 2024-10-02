@@ -13,8 +13,6 @@
 	-ms-flex-pack: center;
 	justify-content: center;
 	gap: 30px;
-	margin-bottom: 135px;
-	margin-top: 133px;
 }
 
 @media (min-width: 768px) {

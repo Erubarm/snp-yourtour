@@ -55,16 +55,6 @@
           flex-direction: column;
   gap: 20px;
 }
-@media (min-width: 360px) {
-  .block-title-container {
-    margin-top: 75px;
-  }
-}
-@media (min-width: 1024px) {
-  .block-title-container {
-    margin-top: 135px;
-  }
-}
 @media (min-width: 1024px) {
   .block-title-container {
     gap: 30px;
@@ -194,9 +184,11 @@
     padding: 0 0 43px 30px;
   }
 }
-.card-list .card-item .more {
-  padding: 7px 20px;
-  border-radius: 50px;
+@media (min-width: 768px) {
+  .card-list .card-item .more {
+    padding: 7px 20px;
+    border-radius: 50px;
+  }
 }
 @media (hover: hover) {
   .card-list .card-item:hover .card-item__up {

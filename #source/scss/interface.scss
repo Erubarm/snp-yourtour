@@ -227,7 +227,7 @@ h3 {
 @media (min-width: 768px) {
 	.container {
 		max-width: 918px;
-		width: 100%;
+
 		padding: 0 53px;
 		align-items: center;
 	}
@@ -242,7 +242,20 @@ h3 {
 @media (min-width: 1200px) {
 	.container {
 		max-width: 1170px;
-		width: 100%;
+	}
+}
+
+section {
+	@media (min-width: 360px) {
+		margin-bottom: 75px;
+	}
+	@media (min-width: 1024px) {
+		margin-bottom: 135px;
+	}
+}
+section.story-travel {
+	@media (min-width: 1024px) {
+		margin-bottom: 133px;
 	}
 }
 
