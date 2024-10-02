@@ -191,8 +191,12 @@
 }
 @media (min-width: 768px) {
   .card-list .card-item .card-item__down {
-    padding: 0 0 50px 50px;
+    padding: 0 0 43px 30px;
   }
+}
+.card-list .card-item .more {
+  padding: 7px 20px;
+  border-radius: 50px;
 }
 @media (hover: hover) {
   .card-list .card-item:hover .card-item__up {
@@ -202,8 +206,6 @@
     padding: 0 0 43px 30px;
   }
   .card-list .card-item:hover .more {
-    padding: 7px 20px;
-    border-radius: 50px;
     background-color: var(--green-400);
   }
   .card-list .card-item .more:active {

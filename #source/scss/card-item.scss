@@ -155,8 +155,14 @@
 			transition: padding 0.3s ease;
 
 			@media (min-width: 768px) {
-				padding: 0 0 50px 50px;
+				padding: 0 0 43px 30px;
 			}
+		}
+
+		.more {
+			padding: 7px 20px;
+
+			border-radius: 50px;
 		}
 
 		@media (hover: hover) {
@@ -170,9 +176,6 @@
 				}
 
 				.more {
-					padding: 7px 20px;
-
-					border-radius: 50px;
 					background-color: var(--green-400);
 				}
 			}
