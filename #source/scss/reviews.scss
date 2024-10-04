@@ -1,3 +1,11 @@
+@media (min-width: 768px) {
+	section.reviews {
+		.block-title-container {
+			margin-bottom: 98px;
+		}
+	}
+}
+
 .reviews-list {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -7,7 +15,6 @@
 	-ms-flex-direction: row;
 	flex-direction: row;
 	gap: 30px;
-	margin-top: 98px;
 }
 
 @media (max-width: 1024px) {
@@ -93,7 +100,6 @@
 
 @media (max-width: 767px) {
 	.reviews-list {
-		margin-top: 50px;
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
 		-ms-flex-direction: column;
@@ -111,9 +117,6 @@
 		p {
 			line-height: 23px;
 		}
-	}
-	.reviews-item__down {
-		// margin-top: 40px;
 	}
 	.reviews-item__down-text {
 		-webkit-box-pack: end;

@@ -307,10 +307,13 @@ a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	gap: 20px;
 
 	@media (min-width: 360px) {
+		margin-bottom: 50px;
 	}
-	@media (min-width: 1024px) {
+	@media (min-width: 768px) {
+		margin-bottom: 100px;
 		gap: 30px;
 	}
 }

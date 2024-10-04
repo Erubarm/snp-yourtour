@@ -45,14 +45,6 @@
 }
 
 .block-title-container {
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
-
-	@media (min-width: 1024px) {
-		gap: 30px;
-	}
-
 	ul {
 		display: flex;
 		flex-direction: row;
@@ -67,27 +59,26 @@
 	}
 }
 
-.block-title-cotnainer__choose-tour {
-	@media (min-width: 360px) {
-		gap: 30px;
-	}
-	@media (min-width: 1024px) {
-		gap: 35px;
+section.choose-tour {
+	.block-title-container__choose-tour {
+		@media (min-width: 360px) {
+			gap: 30px;
+			margin-bottom: 50px;
+		}
+		@media (min-width: 1024px) {
+			gap: 35px;
+			margin-bottom: 102px;
+		}
 	}
 }
 
 .card-list {
-	margin-top: 50px;
-
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	flex-wrap: wrap;
 	gap: 18px;
 
-	@media (min-width: 1024px) {
-		margin-top: 102px;
-	}
 	@media (min-width: 1920px) {
 		gap: 30px;
 	}

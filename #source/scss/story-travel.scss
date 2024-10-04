@@ -1,16 +1,9 @@
-.block-title-container__story-travel {
-	// для сопоставления PixelPerfect
-	margin-top: 78px;
-}
 .story-travel-list {
-	margin-top: 50px;
-
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
 
 	@media (min-width: 768px) {
-		margin-top: 100px;
 		gap: 50px;
 	}
 
