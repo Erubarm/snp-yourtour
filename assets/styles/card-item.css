@@ -97,7 +97,7 @@
       flex-wrap: wrap;
   gap: 18px;
 }
-@media (min-width: 1920px) {
+@media (min-width: 1200px) {
   .card-list {
     gap: 30px;
   }
